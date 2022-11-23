@@ -20,3 +20,5 @@ Imports:
     rlang (>= 1.0.3),
     stringr (>= 1.4.0),
     tidyr (>= 1.2.0)
+Depends: 
+    R (>= 2.10)

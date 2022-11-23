@@ -4,12 +4,18 @@
 \alias{clean_dictionary_tables}
 \title{Clean data dictionary}
 \usage{
-clean_dictionary_tables(dictionary, agreement_id)
+clean_dictionary_tables(
+  dictionary,
+  agreement_id,
+  expected_fields = expected$fields
+)
 }
 \arguments{
 \item{dictionary}{a list tables corresponding to individual data dictionary tables}
 
 \item{agreement_id}{a character representing the customer's agreement id}
+
+\item{expected_fields}{a character vector of expected field names}
 }
 \value{
 list comprising of cleaned data dictionary tables and information about
