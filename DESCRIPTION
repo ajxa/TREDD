@@ -13,6 +13,7 @@ RoxygenNote: 7.2.0
 Imports: 
     crayon (>= 1.5.1),
     dplyr (>= 1.0.9),
+    glue (>= 1.6.2),
     magrittr,
     purrr (>= 0.3.4),
     readr (>= 2.1.2),

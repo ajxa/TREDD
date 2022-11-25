@@ -4,10 +4,13 @@
 \alias{check_dictionary}
 \title{Check data dictionary}
 \usage{
-check_dictionary(dictionary, min_nchars = 2)
+check_dictionary(dictionary, reference, min_nchars = 2)
 }
 \arguments{
 \item{dictionary}{a list tables corresponding to individual data dictionary tables}
+
+\item{reference}{a list of data.frame containing a column of reference values to
+compare against the dictionary tables}
 
 \item{min_nchars}{the minimum number length of characters required (default = 2)
 for the display_name, display_name_label and field_description
