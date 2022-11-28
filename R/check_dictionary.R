@@ -42,29 +42,34 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
         .x = dictionary, ~check_value_lengths(.x, values))
 
 
+    cli::cat_line(outputheader("Post-cleaning checks"))
+
     # summarise the checks and flag problematic tables
     checks <- purrr::imap(checks, ~{
 
         flagged_check <- which(unlist(.x))
 
-        tabs  <- switch(.y,
-                        data_type = paste(rep("\t",3),collapse =""),
-                        variable_type = paste(rep("\t",3),collapse =""),
-                        display_name_len = paste(rep("\t",2),collapse =""),
-                        display_label_len = paste(rep("\t",2),collapse =""),
-                        display_field_desc_len = paste(rep("\t",2),collapse =""),
-                        values = paste(rep("\t",4),collapse ="")
-                        )
-
+        check_out_name <- gsub("_"," ", .y)
 
         if(length(flagged_check) == 0){
 
-            cat(glue::glue(crayon::blue$bold("\n{.y}{tabs}PASS")))
+            cli::cat_line(cli::col_green(symbol$tick),
+                     cli::col_grey("  checking "),
+                     cli::col_grey({check_out_name}),
+                     cli::col_white(" ...")
+                     )
+
             return(TRUE)
 
             }else{
 
-                cat(glue::glue(crayon::red$bold("\n{.y}{tabs}FAIL")))
+                cli::cat_line(cli::col_red(symbol$cross),
+                         cli::col_grey("  checking"),
+                         cli::col_grey({check_out_name}),
+                         cli::col_white(" ...")
+                         )
+
+
                 return(names(.x[flagged_check]))
             }
 
@@ -81,8 +86,37 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
     checks$missing_fields <- check_missing_fields(dictionary = dictionary,
                                                   reference = reference)
 
-    return(checks)
 
+    pass_fail <- purrr::map_lgl(checks[grep("_units$", names(checks), invert = T)],
+                                ~{
+
+        if(is.logical(.x)) .x == TRUE else FALSE
+
+
+        })
+
+    cat("\n")
+    cli::cat_line(outputheader("check results", length = 32))
+    cat("\n")
+
+    if(all(pass_fail)){
+
+        cli::cat_line(cli::col_green("All Passed! "))
+
+    }else{
+
+        cli::cat_line(cli::col_green({length(which(pass_fail))}),
+                 cli::col_green(" passed "),
+                 cli::col_green(cli::symbol$tick),
+                 cli::col_grey(" | "),
+                 cli::col_red({length(which(pass_fail == FALSE))}),
+                 cli::col_red(" failed "),
+                 cli::col_red(cli::symbol$cross)
+        )
+
+    }
+
+    return(checks)
 
 }
 

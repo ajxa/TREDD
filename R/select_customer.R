@@ -16,6 +16,8 @@ select_customer <- function(customer_name, customer_fields){
 
     if(missing(customer_name)) stop("customer_name is missing!")
     if(missing(customer_fields)) stop("customer_fields_path is missing!")
+    if(tools::file_ext(customer_fields) != "csv") stop("customer_fields is not a csv")
+
 
     matched_id <-  match.arg(tolower(customer_name),
                              choices = c("bhf","dhsc","datacan",
@@ -32,12 +34,32 @@ select_customer <- function(customer_name, customer_fields){
                            "evidera" = "561357_x0f3n")
 
 
-    if(tools::file_ext(customer_fields) != "csv") stop("customer_fields is not a csv")
-
     environment_fields <- readr::read_csv(customer_fields,
                                           col_types = readr::cols())
 
     environment_fields <- clean_environment_fields(environment_fields)
+
+
+    cli::cat_line(outputheader("Customer information"))
+
+
+    cli::cat_line(cli::symbol$tick,
+                  cli::col_white(" Set Customer Name:\t"),
+                  cli::col_green({toupper(matched_id)}),
+                  col = "green")
+
+
+    cli::cat_line(cli::symbol$tick,
+                  cli::col_white(" Set Agreement ID:\t"),
+                  cli::col_green({toupper(agreement_id)}),
+                  col = "green")
+
+
+    cli::cat_line(cli::col_white("Agreement tables:\t"),
+                  cli::col_br_blue({length(environment_fields)})
+                  )
+
+
 
     return(
 

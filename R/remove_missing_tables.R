@@ -12,12 +12,18 @@ remove_missing_tables <- function(dictionary, fields){
     if(missing(dictionary)) stop("dictionary is missing!")
     if(missing(fields)) stop("fields are missing!")
 
+    cli::cat_line(outputheader("Subset dictionary"))
+
     # All the field tables present
     if(all(names(fields) %in% names(dictionary))){
 
         fields <- fields[names(fields)]
 
         dictionary <- dictionary[names(fields)]
+
+        cli::cat_line(cli::symbol$tick,
+                      cli::col_white(" All tables found"),
+                      col = "green")
 
         return(
             list(dictionary = dictionary, fields = fields)
@@ -32,7 +38,6 @@ remove_missing_tables <- function(dictionary, fields){
     }
 
 
-
     found <- names(fields)[names(fields) %in% names(dictionary)]
     not_found <- names(fields)[!names(fields) %in% names(dictionary)]
 
@@ -40,53 +45,20 @@ remove_missing_tables <- function(dictionary, fields){
     fields <- fields[found]
     dictionary <- dictionary[found]
 
-    message(crayon::yellow$bold("The following tables were not found..."))
 
-    warning_message <-  paste0("\n\t", not_found, collapse = "")
+    cli::cat_bullet(cli::col_white("tables not found in dictionary..."),
+               bullet = "info",
+               bullet_col = "yellow")
 
-    message(crayon::red$bold(warning_message))
+    stringr::str_remove_all(not_found, "_\\{fyear\\}$") %>%
+        purrr::walk(~{cli::cat_line("\t",
+                               cli::symbol$record, " ",
+                               cli::col_grey(.x),
+                               col = "blue")})
+
 
     return(
         list(dictionary = dictionary, fields = fields)
     )
 
-    #
-    # # some environment tables missing in the data dictionary
-    # found <- purrr::imap(dictionary, ~{
-    #
-    #     lookup_pattern <- stringr::str_replace_all(.y, "[{]","\\\\{") %>%
-    #
-    #         stringr::str_replace_all("[}]","\\\\}") %>%
-    #
-    #         paste0("^",.,"$")
-    #
-    #     grep(lookup_pattern, names(fields), value = T)
-    #
-    # })
-    #
-    # # Where names have been found in the environment table names (len(n) == 1)
-    # # alter the names of the dictionary to account for excel max length cuttoffs
-    #
-    # names(dictionary)[lengths(found) == 1] <- unlist(found[lengths(found) == 1],
-    #                                                  use.names = F)
-    #
-    # not_found <- names(dictionary)[lengths(found) == 0 | lengths(found) > 1]
-    #
-    # found <- names(dictionary)[lengths(found) == 1]
-    #
-    # warning_message <-  paste0("Warning: datasets not found!",
-    #                            paste0("\n", not_found, collapse = ""))
-    #
-    # if(length(not_found) >= 1) message(crayon::yellow(warning_message))
-    #
-    # fields <- fields[found]
-    #
-    # dictionary <- dictionary[found]
-    #
-    #
-    #
-    #
-    # return(
-    #     list(dictionary = dictionary, fields = fields)
-    # )
 }

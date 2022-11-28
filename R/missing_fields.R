@@ -26,20 +26,24 @@ check_missing_fields <- function(dictionary, reference){
     outlist <- purrr::map2(.x = dictionary, .y = reference,
                            ~missing_tbl_fields(.x, .y, display_name))
 
-    outlist <- purrr::flatten(outlist)
-
-
-    tabs <- paste(rep("\t",3),collapse ="")
+    outlist <- purrr::compact(outlist)
 
     if(length(outlist) == 0){
 
-        cat(glue::glue(crayon::blue$bold("\n\nmissing_fields{tabs}NO")))
+        cli::cat_line(cli::col_green(cli::symbol$tick),
+                 cli::col_grey("  checking missing fields"),
+                 cli::col_white(" ...")
+        )
 
-        return(FALSE)
+        return(TRUE)
 
         }else{
 
-            cat(glue::glue(crayon::red$bold("\n\nmissing_fields{tabs}YES")))
+            cli::cat_line(cli::col_red(cli::symbol$cross),
+                     cli::col_grey("  checking missing fields"),
+                     cli::col_white(" ...")
+            )
+
             return(outlist)
 
     }

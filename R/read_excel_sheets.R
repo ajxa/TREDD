@@ -21,6 +21,13 @@ read_excel_sheets <- function(workbook_path, filter_sheets){
         purrr::set_names() %>%
         as.list()
 
+
+    cli::cat_line(outputheader("Load dictionary"))
+
+    cli::cat_bullet({length(all_sheets)}, " tables Found ",
+                    col = "grey", bullet_col = "white")
+
+
     if(!missing(filter_sheets)){
 
     all_sheets <-  within(all_sheets, rm(list=filter_sheets))
@@ -32,8 +39,17 @@ read_excel_sheets <- function(workbook_path, filter_sheets){
 
     })
 
+    cli::cat_bullet({length(out_sheets)}, " tables Loaded",
+                    col = "grey", bullet_col = "white")
+
     return(out_sheets)
 
-    } else return(all_sheets)
+    } else{
 
+        return(all_sheets)
+
+        cli::cat_bullet({length(all_sheets)}, " tables Loaded",
+                        col = "grey", bullet_col = "white")
+
+    }
 }
