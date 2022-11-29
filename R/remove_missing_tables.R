@@ -46,7 +46,9 @@ remove_missing_tables <- function(dictionary, fields){
     dictionary <- dictionary[found]
 
 
-    cli::cat_bullet(cli::col_white("tables not found in dictionary..."),
+    cli::cat_bullet(
+        cli::col_white({length(not_found)}),
+        cli::col_white(" tables not found in dictionary..."),
                bullet = "info",
                bullet_col = "yellow")
 

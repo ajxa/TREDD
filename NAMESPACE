@@ -3,6 +3,7 @@
 export(check_dictionary)
 export(clean_dictionary_tables)
 export(clean_table_names)
+export(generate_dd)
 export(read_excel_sheets)
 export(remove_missing_tables)
 export(select_customer)

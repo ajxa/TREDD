@@ -42,7 +42,6 @@ select_customer <- function(customer_name, customer_fields){
 
     cli::cat_line(outputheader("Customer information"))
 
-
     cli::cat_line(cli::symbol$tick,
                   cli::col_white(" Set Customer Name:\t"),
                   cli::col_green({toupper(matched_id)}),
