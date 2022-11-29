@@ -15,6 +15,7 @@ Imports:
     crayon (>= 1.5.1),
     dplyr (>= 1.0.9),
     magrittr,
+    openxlsx (>= 4.2.5),
     purrr (>= 0.3.4),
     readr (>= 2.1.2),
     readxl (>= 1.4.0),

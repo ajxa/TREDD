@@ -24,9 +24,11 @@ read_excel_sheets <- function(workbook_path, filter_sheets){
 
     cli::cat_line(outputheader("Load dictionary"))
 
-    cli::cat_bullet({length(all_sheets)}, " tables Found ",
-                    col = "grey", bullet_col = "white")
+    cli::cat_line(cli::col_yellow(cli::symbol$info)," ",
+                  cli::col_grey({length(all_sheets)}),
+                  cli::col_grey(" tables found"))
 
+    sheets_removed <- length(all_sheets)
 
     if(!missing(filter_sheets)){
 
@@ -39,8 +41,16 @@ read_excel_sheets <- function(workbook_path, filter_sheets){
 
     })
 
-    cli::cat_bullet({length(out_sheets)}, " tables Loaded",
-                    col = "grey", bullet_col = "white")
+    sheets_removed <- sheets_removed - length(out_sheets)
+
+    cli::cat_line(cli::col_yellow(cli::symbol$info)," ",
+                  cli::col_grey({sheets_removed}),
+                  cli::col_grey(" workbook sheets skipped"))
+
+
+    cli::cat_line(cli::col_green(cli::symbol$tick)," ",
+                  cli::col_grey({length(out_sheets)}),
+                  cli::col_grey(" tables successfully loaded"))
 
     return(out_sheets)
 

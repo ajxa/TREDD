@@ -26,6 +26,28 @@ generate_dd <- function(unformatted_dict_path,
         customer_name = customer_name, customer_fields = customer_fields_path
         )
 
+
+    # Split up mental health dataset
+    split_mental_health <- split_dd_table(dictionary_tables = dictionary,
+                                          split_table_name = "mhsds",
+                                          customer_tables = customer$fields,
+                                          dataset = "mental_health")
+
+    if(!is.null(split_mental_health)){
+
+        cli::cat_line(outputheader("Pre-processing"))
+
+        cli::cat_line(cli::col_yellow(cli::symbol$info),
+                      cli::col_grey(" Split mental health dataset into "),
+                      cli::col_grey({length(split_mental_health)}),
+                      cli::col_grey(" tables"),
+                      cli::col_white(" ..."))
+
+        dictionary <- c(dictionary, split_mental_health)
+
+    }
+
+
     filt_dictionary <- TREDD::remove_missing_tables(dictionary = dictionary,
                                                     fields = customer$fields)
 
@@ -38,10 +60,31 @@ generate_dd <- function(unformatted_dict_path,
     checks <- check_dictionary(dictionary = filt_dictionary$dictionary,
                                reference = filt_dictionary$fields)
 
+    cli::cat_line(outputheader("Post-processing"))
 
     cleaned <- get_common_fields(dictionary = filt_dictionary$dictionary,
                                  reference = filt_dictionary$fields,
                                  field = display_name)
+
+    if(!is.null(split_mental_health)){
+
+        cli::cat_line(cli::col_yellow(cli::symbol$info),
+                      cli::col_grey(" Re-combining "),
+                      cli::col_grey({length(split_mental_health)}),
+                      cli::col_grey(" mental health dataset tables"),
+                      cli::col_white(" ..."))
+
+        cleaned <- combine_split_tables(cleaned, dataset = "mental_health")
+
+    }
+
+
+    names(cleaned) <- clean_table_names(names(cleaned), remove_fyear = TRUE)
+
+    cli::cat_line(cli::col_green(cli::symbol$tick), " ",
+                  cli::col_grey({length(cleaned)}),
+                  cli::col_grey(" dictionary tables successfully formatted")
+                  )
 
     return(
         list(unformatted_dd = dictionary,

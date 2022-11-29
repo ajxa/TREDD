@@ -96,8 +96,7 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
         })
 
     cli::cat_line(outputheader("check results", length = 32))
-    cat("\n")
-
+    # cat("\n")
     if(all(pass_fail)){
 
         cli::cat_line(cli::col_green("All Passed! "))

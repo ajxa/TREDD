@@ -59,6 +59,7 @@ check_missing_fields <- function(dictionary, reference){
 #' @param dictionary a list of data.frames corresponding to individual data dictionary tables
 #' @param reference a list of character vectors corresponding to field names
 #'                  which will be compared with those in each dictionary table
+#' @param field the name of the field to search
 #' @return A list of subset data.frames
 get_common_fields <- function(dictionary, reference, field){
 

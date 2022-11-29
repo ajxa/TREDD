@@ -22,7 +22,7 @@ remove_missing_tables <- function(dictionary, fields){
         dictionary <- dictionary[names(fields)]
 
         cli::cat_line(cli::symbol$tick,
-                      cli::col_white(" All tables found"),
+                      cli::col_grey(" All tables found in dictionary"),
                       col = "green")
 
         return(

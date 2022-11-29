@@ -43,22 +43,21 @@ select_customer <- function(customer_name, customer_fields){
     cli::cat_line(outputheader("Customer information"))
 
     cli::cat_line(cli::symbol$tick,
-                  cli::col_white(" Set Customer Name:\t"),
+                  cli::col_grey(" Set Customer Name:\t"),
                   cli::col_green({toupper(matched_id)}),
                   col = "green")
 
 
     cli::cat_line(cli::symbol$tick,
-                  cli::col_white(" Set Agreement ID:\t"),
+                  cli::col_grey(" Set Agreement ID:\t"),
                   cli::col_green({toupper(agreement_id)}),
                   col = "green")
 
 
-    cli::cat_line(cli::col_white("Agreement tables:\t"),
+    cli::cat_line(cli::col_yellow(cli::symbol$info)," ",
+                  cli::col_grey("Customer tables:\t"),
                   cli::col_br_blue({length(environment_fields)})
                   )
-
-
 
     return(
 

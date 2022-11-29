@@ -11,6 +11,8 @@ get_common_fields(dictionary, reference, field)
 
 \item{reference}{a list of character vectors corresponding to field names
 which will be compared with those in each dictionary table}
+
+\item{field}{the name of the field to search}
 }
 \value{
 A list of subset data.frames
