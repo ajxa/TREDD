@@ -4,13 +4,13 @@ This package contains all the functions to format an excel workbook comprising n
 
 The main function `generate_dd()` will return a formatted data dictionary excel workbook, where each sheet corresponds to a specific dataset. There are a number of steps which need to be completed before this workbook can be shared:
 
-## Adding a drop-down list to the Home tab sheet
+## Add a drop-down list to the Home sheet
 
 In the tab named "Home" there is a merged cell (F3:I3) which needs to be populated with a list of sheet names. This can be achieved by create a drop-down list using the range in the hidden "table_list" lookup table (Data \> data validation \> Allow = list) and pasting the following into the source:
 
     =table_list!$A$2:$A$1000
 
-## Creating linkable drop-downs in the Home tab sheet
+## Create linkable drop-downs in the Home sheet
 
 After creating a drop-down list of sheet names we can makes these linkable by:
 
