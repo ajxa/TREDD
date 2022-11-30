@@ -1,18 +1,24 @@
 #' Generate a formatted data dictionary
-#'
-#' @param unformatted_dict_path a file path to an excel workbook containing one unformatted dictionary table per sheet
+
+#' @param customer_name a character vector corresponding to one of the approved users
 #' @param customer_fields_path a file path corresponding to a csv file which lists
 #'                             all the fields present in the selected customers agreement
-#' @param customer_name a character vector corresponding to one of the approved users
+#' @param unformatted_dict_path a file path to an excel workbook containing one unformatted dictionary table per sheet
+#' @param output_hometab_filepath the file path to the output home and reference tab
+#' @param output_filepath the file path where you wish to save formatted excel workbook
+#' @param overwrite_output logical should the outputfile be overwritten, if it exists (default:TRUE)
 #'
 #' @return A list of length 4: unformatted_dd = a list of the unformatted dictionary tables before cleaning;
 #'         customer_info = a list of 3 comprising customer information and agreement specific fields;
 #'         cleaned_dd = a list of cleaned cleaned dictionary tables;checks = a list of checks
 #'         completed against each of the cleaned dictionary tables.
 #' @export
-generate_dd <- function(unformatted_dict_path,
+generate_dd <- function(customer_name,
                         customer_fields_path,
-                        customer_name){
+                        unformatted_dict_path,
+                        output_hometab_filepath,
+                        output_filepath = getwd(),
+                        overwrite_output = TRUE){
 
     dictionary <- TREDD::read_excel_sheets(
         workbook_path = unformatted_dict_path,
@@ -85,6 +91,14 @@ generate_dd <- function(unformatted_dict_path,
                   cli::col_grey({length(cleaned)}),
                   cli::col_grey(" dictionary tables successfully formatted")
                   )
+
+
+    create_formatted_workbook(dictionary = cleaned,
+                              hometab_filepath = output_hometab_filepath,
+                              customer_name = customer$user,
+                              customer_agreement = customer$agreement_id,
+                              outfilepath = output_filepath,
+                              overwrite_existing = overwrite_output)
 
     return(
         list(unformatted_dd = dictionary,

@@ -31,7 +31,7 @@ check_missing_fields <- function(dictionary, reference){
     if(length(outlist) == 0){
 
         cli::cat_line(cli::col_green(cli::symbol$tick),
-                 cli::col_grey("  checking missing fields"),
+                 cli::col_grey(" checking missing fields"),
                  cli::col_white(" ...")
         )
 
@@ -40,7 +40,7 @@ check_missing_fields <- function(dictionary, reference){
         }else{
 
             cli::cat_line(cli::col_red(cli::symbol$cross),
-                     cli::col_grey("  checking missing fields"),
+                     cli::col_grey(" checking missing fields"),
                      cli::col_white(" ...")
             )
 

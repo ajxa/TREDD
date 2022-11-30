@@ -54,7 +54,7 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
         if(length(flagged_check) == 0){
 
             cli::cat_line(cli::col_green(symbol$tick),
-                     cli::col_grey("  checking "),
+                     cli::col_grey(" checking "),
                      cli::col_grey({check_out_name}),
                      cli::col_white(" ...")
                      )
@@ -64,7 +64,7 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
             }else{
 
                 cli::cat_line(cli::col_red(symbol$cross),
-                         cli::col_grey("  checking "),
+                         cli::col_grey(" checking "),
                          cli::col_grey({check_out_name}),
                          cli::col_white(" ...")
                          )

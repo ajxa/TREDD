@@ -4,15 +4,28 @@
 \alias{generate_dd}
 \title{Generate a formatted data dictionary}
 \usage{
-generate_dd(unformatted_dict_path, customer_fields_path, customer_name)
+generate_dd(
+  customer_name,
+  customer_fields_path,
+  unformatted_dict_path,
+  output_hometab_filepath,
+  output_filepath = getwd(),
+  overwrite_output = FALSE
+)
 }
 \arguments{
-\item{unformatted_dict_path}{a file path to an excel workbook containing one unformatted dictionary table per sheet}
+\item{customer_name}{a character vector corresponding to one of the approved users}
 
 \item{customer_fields_path}{a file path corresponding to a csv file which lists
 all the fields present in the selected customers agreement}
 
-\item{customer_name}{a character vector corresponding to one of the approved users}
+\item{unformatted_dict_path}{a file path to an excel workbook containing one unformatted dictionary table per sheet}
+
+\item{output_hometab_filepath}{the file path to the output home and reference tab}
+
+\item{output_filepath}{the file path where you wish to save formatted excel workbook}
+
+\item{overwrite_output}{logical should the outputfile be overwritten (if it exists)}
 }
 \value{
 A list of length 4: unformatted_dd = a list of the unformatted dictionary tables before cleaning;
