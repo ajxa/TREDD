@@ -63,14 +63,15 @@ generate_dd <- function(customer_name,
         )
 
 
-    checks <- check_dictionary(dictionary = filt_dictionary$dictionary,
+    cleaned <- get_common_fields(dictionary = filt_dictionary$dictionary,
+                                 reference = filt_dictionary$fields,
+                                 field = display_name)
+
+    checks <- check_dictionary(dictionary = cleaned,
                                reference = filt_dictionary$fields)
 
     cli::cat_line(outputheader("Post-processing"))
 
-    cleaned <- get_common_fields(dictionary = filt_dictionary$dictionary,
-                                 reference = filt_dictionary$fields,
-                                 field = display_name)
 
     if(!is.null(split_mental_health)){
 
