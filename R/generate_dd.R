@@ -39,17 +39,39 @@ generate_dd <- function(customer_name,
                                           customer_tables = customer$fields,
                                           dataset = "mental_health")
 
-    if(!is.null(split_mental_health)){
+    # Split up maternity
+    split_maternity <- split_dd_table(dictionary_tables = dictionary,
+                                          split_table_name = "msds-v2",
+                                          customer_tables = customer$fields,
+                                          dataset = "maternity")
+
+    if(!is.null(split_mental_health) | !is.null(split_maternity)){
 
         cli::cat_line(outputheader("Pre-processing"))
 
-        cli::cat_line(cli::col_yellow(cli::symbol$info),
-                      cli::col_grey(" Split mental health dataset into "),
-                      cli::col_grey({length(split_mental_health)}),
-                      cli::col_grey(" tables"),
-                      cli::col_white(" ..."))
+        if(!is.null(split_mental_health)){
 
-        dictionary <- c(dictionary, split_mental_health)
+            cli::cat_line(cli::col_yellow(cli::symbol$info),
+                          cli::col_grey(" Split mental health dataset into "),
+                          cli::col_grey({length(split_mental_health)}),
+                          cli::col_grey(" tables"),
+                          cli::col_white(" ..."))
+
+            dictionary <- c(dictionary, split_mental_health)
+
+        }
+
+        if(!is.null(split_maternity)){
+
+            cli::cat_line(cli::col_yellow(cli::symbol$info),
+                          cli::col_grey(" Split maternity services dataset into "),
+                          cli::col_grey({length(split_maternity)}),
+                          cli::col_grey(" tables"),
+                          cli::col_white(" ..."))
+
+            dictionary <- c(dictionary, split_maternity)
+
+        }
 
     }
 
@@ -85,6 +107,18 @@ generate_dd <- function(customer_name,
 
     }
 
+
+    if(!is.null(split_maternity)){
+
+        cli::cat_line(cli::col_yellow(cli::symbol$info),
+                      cli::col_grey(" Re-combining "),
+                      cli::col_grey({length(split_maternity)}),
+                      cli::col_grey(" maternity health dataset tables"),
+                      cli::col_white(" ..."))
+
+        cleaned <- combine_split_tables(cleaned, dataset = "maternity")
+
+    }
 
     names(cleaned) <- clean_table_names(names(cleaned), remove_fyear = TRUE)
 

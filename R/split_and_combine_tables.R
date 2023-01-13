@@ -16,11 +16,12 @@ split_dd_table <- function(dictionary_tables, split_table_name,
 
 
     matched_dataset<-  match.arg(tolower(dataset),
-                             choices = c("mental_health"),
+                             choices = c("mental_health", "maternity"),
                              several.ok = FALSE)
 
     split_pattern <- switch(matched_dataset,
-                            "mental_health" = "(?i)^mhs")
+                            "mental_health" = "(?i)^mhs",
+                            "maternity" = "(?i)^msds")
 
     split_tables <- grep(split_pattern, names(customer_tables), value = T)
 
@@ -32,6 +33,13 @@ split_dd_table <- function(dictionary_tables, split_table_name,
 
         split_data$data_dictionary <- split_data$data_dictionary %>%
             dplyr::mutate(dplyr::across(.data$display_name, tolower))
+
+
+        split_data$environment_fields <- purrr::map(split_data$environment_fields, ~{
+
+            .x %>% dplyr::mutate(dplyr::across(.data$display_name, tolower))
+
+        })
 
 
         split_dict_table <- purrr::imap(split_data$environment_fields, ~{
@@ -56,12 +64,14 @@ split_dd_table <- function(dictionary_tables, split_table_name,
 combine_split_tables <- function(dictionary, dataset){
 
     matched_dataset<-  match.arg(tolower(dataset),
-                                 choices = c("mental_health"),
+                                 choices = c("mental_health", "maternity"),
                                  several.ok = FALSE)
 
     combine_info <- switch(matched_dataset,
-                            "mental_health" = list(name = "mhsds",
-                                                   pattern = "(?i)^mhs")
+                           "mental_health" = list(name = "mhsds",
+                                                   pattern = "(?i)^mhs"),
+                           "maternity" = list(name = "msds",
+                                              pattern = "(?i)^msds")
                             )
 
     combine_tables <- grep(combine_info$pattern, names(dictionary))
