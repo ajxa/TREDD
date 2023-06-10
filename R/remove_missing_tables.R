@@ -12,7 +12,6 @@ remove_missing_tables <- function(dictionary, fields){
     if(missing(dictionary)) stop("dictionary is missing!")
     if(missing(fields)) stop("fields are missing!")
 
-    cli::cat_line(outputheader("Subset dictionary"))
 
     # All the field tables present
     if(all(names(fields) %in% names(dictionary))){
@@ -22,7 +21,7 @@ remove_missing_tables <- function(dictionary, fields){
         dictionary <- dictionary[names(fields)]
 
         cli::cat_line(cli::symbol$tick,
-                      cli::col_grey(" All tables found in dictionary"),
+                      cli::col_grey(" All customer dictionaries found"),
                       col = "green")
 
         return(
@@ -47,8 +46,8 @@ remove_missing_tables <- function(dictionary, fields){
 
 
     cli::cat_bullet(
-        cli::col_white({length(not_found)}),
-        cli::col_white(" tables not found in dictionary..."),
+        cli::col_silver({length(not_found)}),
+        cli::col_silver(" dictionaries not found:"),
                bullet = "info",
                bullet_col = "yellow")
 
@@ -56,7 +55,7 @@ remove_missing_tables <- function(dictionary, fields){
         purrr::walk(~{cli::cat_line("\t",
                                cli::symbol$record, " ",
                                cli::col_grey(.x),
-                               col = "blue")})
+                               col = "red")})
 
 
     return(

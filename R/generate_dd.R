@@ -20,6 +20,26 @@ generate_dd <- function(customer_name,
                         output_filepath = getwd(),
                         overwrite_output = TRUE){
 
+    cli::cat_line(cli::rule(center = "SDE Data Dictionaries",
+                  col = "slateblue",line_col = "white"))
+
+    cli::cli_blockquote(fortunes::fortune())
+
+    cli::cat_line(cli::rule(left = "Customer Information",
+                            col = "slateblue",line_col = "white"),
+                  "\n")
+
+
+    customer <- TREDD::select_customer(
+        customer_name = customer_name, customer_fields = customer_fields_path
+    )
+
+    cli::cat_line("\n",
+                  cli::rule(left = "Unformatted Dictionaries",
+                            col = "slateblue",line_col = "white"),
+                  "\n")
+
+
     dictionary <- TREDD::read_excel_sheets(
         workbook_path = unformatted_dict_path,
         filter_sheets = c("Home","Refinements", "Dictonary_Priorities")
@@ -27,54 +47,33 @@ generate_dd <- function(customer_name,
 
     names(dictionary) <- TREDD::clean_table_names(table_names = names(dictionary))
 
+    split_lookups = find_tables_to_split(customer$fields, dictionary)
 
-    customer <- TREDD::select_customer(
-        customer_name = customer_name, customer_fields = customer_fields_path
-        )
+    if(length(split_lookups) >= 1)   cli::cat_line("\n", cli::rule(left = "Splitting Dictionaries",
+                                                                   col = "slateblue",line_col = "white"),
+                                                   "\n")
 
+    split_lookups = get_split_keys(tables_to_split = split_lookups,
+                                   customer_tables = customer$fields,
+                                   dictionary_tables = dictionary)
 
-    # Split up mental health dataset
-    split_mental_health <- split_dd_table(dictionary_tables = dictionary,
-                                          split_table_name = "mhsds",
-                                          customer_tables = customer$fields,
-                                          dataset = "mental_health")
+    missing_keys_found = missing_split_keys(split_lookups)
 
-    # Split up maternity
-    split_maternity <- split_dd_table(dictionary_tables = dictionary,
-                                          split_table_name = "msds-v2",
-                                          customer_tables = customer$fields,
-                                          dataset = "maternity")
+    if(!is.logical(missing_keys_found)){
 
-    if(!is.null(split_mental_health) | !is.null(split_maternity)){
+        return(missing_keys_found)
 
-        cli::cat_line(outputheader("Pre-processing"))
-
-        if(!is.null(split_mental_health)){
-
-            cli::cat_line(cli::col_yellow(cli::symbol$info),
-                          cli::col_grey(" Split mental health dataset into "),
-                          cli::col_grey({length(split_mental_health)}),
-                          cli::col_grey(" tables"),
-                          cli::col_white(" ..."))
-
-            dictionary <- c(dictionary, split_mental_health)
-
-        }
-
-        if(!is.null(split_maternity)){
-
-            cli::cat_line(cli::col_yellow(cli::symbol$info),
-                          cli::col_grey(" Split maternity services dataset into "),
-                          cli::col_grey({length(split_maternity)}),
-                          cli::col_grey(" tables"),
-                          cli::col_white(" ..."))
-
-            dictionary <- c(dictionary, split_maternity)
-
-        }
+        cli::cli_abort("Missing fields detected in split dictionaries")
 
     }
 
+    dictionary = split_tables(dictionary_tables = dictionary,
+                              split_lookups = split_lookups)
+
+
+    cli::cat_line("\n", cli::rule(left = "Checks & Balances",
+                            col = "slateblue",line_col = "white"),
+                  "\n")
 
     filt_dictionary <- TREDD::remove_missing_tables(dictionary = dictionary,
                                                     fields = customer$fields)
@@ -92,41 +91,25 @@ generate_dd <- function(customer_name,
     checks <- check_dictionary(dictionary = cleaned,
                                reference = filt_dictionary$fields)
 
-    cli::cat_line(outputheader("Post-processing"))
+    if(length(split_lookups) >= 1){
 
+        cli::cat_line("\n",
+                      cli::rule(left = "Combining Split Dictionaries",
+                                col = "slateblue",line_col = "white"),
+                      "\n")
 
-    if(!is.null(split_mental_health)){
-
-        cli::cat_line(cli::col_yellow(cli::symbol$info),
-                      cli::col_grey(" Re-combining "),
-                      cli::col_grey({length(split_mental_health)}),
-                      cli::col_grey(" mental health dataset tables"),
-                      cli::col_white(" ..."))
-
-        cleaned <- combine_split_tables(cleaned, dataset = "mental_health")
+        cleaned = combine_split_tables(dictionary_tables =  cleaned,
+                                       split_lookups = split_lookups)
 
     }
 
+    cli::cat_line("\n",
+                  cli::rule(left = "Creating Formatted Dictionary",
+                            col = "slateblue",line_col = "white"),
+                  "\n")
 
-    if(!is.null(split_maternity)){
-
-        cli::cat_line(cli::col_yellow(cli::symbol$info),
-                      cli::col_grey(" Re-combining "),
-                      cli::col_grey({length(split_maternity)}),
-                      cli::col_grey(" maternity health dataset tables"),
-                      cli::col_white(" ..."))
-
-        cleaned <- combine_split_tables(cleaned, dataset = "maternity")
-
-    }
 
     names(cleaned) <- clean_table_names(names(cleaned), remove_fyear = TRUE)
-
-    cli::cat_line(cli::col_green(cli::symbol$tick), " ",
-                  cli::col_grey({length(cleaned)}),
-                  cli::col_grey(" dictionary tables successfully formatted")
-                  )
-
 
     create_formatted_workbook(dictionary = cleaned,
                               hometab_filepath = output_hometab_filepath,
@@ -134,6 +117,12 @@ generate_dd <- function(customer_name,
                               customer_agreement = customer$agreement_id,
                               outfilepath = output_filepath,
                               overwrite_existing = overwrite_output)
+
+
+    cli::cat_line("\n",
+                  cli::rule(center = "end",
+                            col = "slateblue",line_col = "white"),
+                  "\n")
 
     return(
         list(unformatted_dd = dictionary,

@@ -14,7 +14,6 @@
 #' @return a formatted excel workbook saved to the outfilepath
 #'
 #' @export
-#'
 create_formatted_workbook <- function(dictionary,
                                       hometab_filepath,
                                       customer_name,
@@ -28,7 +27,6 @@ create_formatted_workbook <- function(dictionary,
     if(missing(customer_agreement)) stop("customer agreement is missing")
     if(missing(outfilepath)) stop("outfilepath is missing")
 
-    cli::cat_line(outputheader("Write output"))
 
     if(!missing(hometab_filepath)){
 
@@ -37,8 +35,8 @@ create_formatted_workbook <- function(dictionary,
         wb <- openxlsx::loadWorkbook(file = hometab_filepath)
 
         cli::cat_line(cli::col_green(cli::symbol$tick), " ",
-                      cli::col_grey("read in home tab successfully")
-        )
+                      cli::col_grey("Read in Home tab")
+                      )
 
 
     } else wb <- openxlsx::createWorkbook()
@@ -53,10 +51,44 @@ create_formatted_workbook <- function(dictionary,
                              fontColour = "black")
 
     headerstyle <- openxlsx::createStyle(fontColour = "#ffffff",
-                               fgFill = "#005EB8",
+                               fgFill = "#003087",           # Other NHSE blues "#005EB8" "#0072CE"
                                halign = "left",
                                valign = "top",
                                textDecoration = "bold")
+
+    home_headerstyle <- openxlsx::createStyle(
+        fontColour = "#ffffff",
+        bgFill = "#003087",         # Other NHSE blues "#005EB8" "#0072CE"
+        fgFill = "#003087",
+        fontSize = 14,
+        fontName = "Arial",
+        halign = "left",
+        valign = "top",
+        textDecoration = "bold")
+
+    dropdown_header_style <- openxlsx::createStyle(
+        fontName = "Arial",
+        fontSize = 20,
+        fontColour = "white",
+        bgFill = "#003087",
+        fgFill = "#003087",
+        borderColour = "black",
+        borderStyle = "thin",
+        border = "TopBottomLeftRight",
+        halign = "center",
+        valign = "center")
+
+    dropdown_text_style <- openxlsx::createStyle(
+        fontName = "Arial",
+        fontSize = 20,
+        textDecoration = "bold",
+        fontColour = "black",
+        borderColour = "black",
+        borderStyle = "thin",
+        border = "TopBottomLeftRight",
+        halign = "center",
+        valign = "center")
+
 
     wrap_text_style <- openxlsx::createStyle(halign = "left",
                                    valign = "top",
@@ -70,8 +102,7 @@ create_formatted_workbook <- function(dictionary,
                                      textDecoration = "bold",
                                      fontColour = "black",
                                      valign = "top",
-                                     halign = "left"
-    )
+                                     halign = "left")
 
     # Add table lookup ----
 
@@ -101,7 +132,7 @@ create_formatted_workbook <- function(dictionary,
 
 
     cli::cat_line(cli::col_green(cli::symbol$tick), " ",
-                  cli::col_grey("added hidden lookup table")
+                  cli::col_grey("Added dictionary lookup table")
                   )
 
 
@@ -175,26 +206,89 @@ create_formatted_workbook <- function(dictionary,
 
 
     cli::cat_line(cli::col_green(cli::symbol$tick), " ",
-                  cli::col_grey("added dictionary sheets")
+                  cli::col_grey("Added dictionary sheets")
                   )
 
     # Data Validation and home tab ----
     if(!missing(hometab_filepath)){
 
-        purrr::walk(home_tab_sheets, ~{
-
-            openxlsx::addStyle(wb, sheet = .x, style = home_tab_style,
-                               rows = 1:1000, cols = 1:250, gridExpand = TRUE,
-                               stack = TRUE)
-
+        suppressWarnings({
+            openxlsx::dataValidation(wb, 1, col = 6, rows = 3,
+                                     type = "list",
+                                     value = "=table_list!$A$2:$A$1000")
         })
 
-    }
+        for (tab in seq_along(home_tab_sheets)) {
 
+            openxlsx::addStyle(wb,
+                               sheet = home_tab_sheets[[tab]],
+                               style = home_tab_style,
+                               rows = 1:1000,
+                               cols = 1:250,
+                               gridExpand = TRUE,
+                               stack = TRUE)
+            }
+
+
+        openxlsx::addStyle(wb = wb,
+                           sheet = 1,
+                           style = dropdown_header_style,
+                           cols = 6:12,
+                           rows = 2,
+                           gridExpand = T,
+                           stack = T)
+
+        openxlsx::addStyle(wb = wb,
+                           sheet = 1,
+                           style = dropdown_text_style,
+                           cols = 6:12,
+                           rows = 3,
+                           gridExpand = T,
+                           stack = T)
+
+        # Add heading styles for home and reference tabs
+        openxlsx::addStyle(wb = wb,
+                           sheet = 1,
+                           style = home_headerstyle,
+                           cols = 1,
+                           rows = 4,
+                           stack = T)
+
+        openxlsx::addStyle(wb = wb,
+                           sheet = 1,
+                           style = home_headerstyle,
+                           cols = 2,
+                           rows = 4,
+                           stack = T)
+
+
+        openxlsx::addStyle(wb = wb,
+                           sheet = 1,
+                           style = home_headerstyle,
+                           cols = 1,
+                           rows = 19,
+                           stack = T)
+
+        openxlsx::addStyle(wb = wb,
+                           sheet = 2,
+                           style = home_headerstyle,
+                           cols = 1,
+                           rows = 3,
+                           stack = T)
+
+        openxlsx::addStyle(wb = wb,
+                           sheet = 2,
+                           style = home_headerstyle,
+                           cols = 1,
+                           rows = 13,
+                           stack = T)
+
+
+}
 
     # Save the created workbook ----
 
-    outfilename <- paste0(Sys.Date(),"_TRE_DD_",customer_agreement,".xlsx")
+    outfilename <- paste0(Sys.Date(),"_SDE_DD_",customer_agreement,".xlsx")
 
     outdir <- file.path(outfilepath, toupper(customer_name))
 
@@ -205,13 +299,13 @@ create_formatted_workbook <- function(dictionary,
         if(dir.exists(outdir)){
 
             cli::cat_line(cli::col_yellow(cli::symbol$info), " ",
-                          cli::col_grey("created output dir")
+                          cli::col_grey("Created Output Directory")
                           )
             }
         }
 
     cli::cat_line(cli::col_green(cli::symbol$tick), " ",
-                  cli::col_grey("set output dir: "),
+                  cli::col_grey("Set Directory as: "),
                   cli::col_grey({outdir})
                   )
 
@@ -221,9 +315,9 @@ create_formatted_workbook <- function(dictionary,
         if(overwrite_existing){
 
             cli::cat_line(cli::col_yellow(cli::symbol$info), " ",
-                          cli::col_grey("overwriting: "),
+                          cli::col_grey("Overwriting: "),
                           cli::col_grey({file.path(outfilename)})
-            )
+                          )
 
         }
     } else{

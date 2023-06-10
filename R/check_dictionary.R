@@ -41,10 +41,9 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
     checks$values <- purrr::map(
         .x = dictionary, ~check_value_lengths(.x, values))
 
-
-    cli::cat_line(outputheader("Post-cleaning checks"))
-
     # summarise the checks and flag problematic tables
+
+    cli::cat_line("")
     checks <- purrr::imap(checks, ~{
 
         flagged_check <- which(unlist(.x))
@@ -54,9 +53,8 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
         if(length(flagged_check) == 0){
 
             cli::cat_line(cli::col_green(cli::symbol$tick),
-                          cli::col_grey(" checking "),
-                          cli::col_grey({check_out_name}),
-                          cli::col_white(" ...")
+                          cli::col_grey(" check "),
+                          cli::col_grey({check_out_name})
                      )
 
             return(TRUE)
@@ -64,9 +62,8 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
             }else{
 
                 cli::cat_line(cli::col_red(cli::symbol$cross),
-                              cli::col_grey(" checking "),
-                              cli::col_grey({check_out_name}),
-                              cli::col_white(" ...")
+                              cli::col_grey(" check "),
+                              cli::col_grey({check_out_name})
                          )
 
 
@@ -95,20 +92,19 @@ check_dictionary <- function(dictionary, reference, min_nchars = 2){
 
         })
 
-    cli::cat_line(outputheader("check results", length = 32))
-    # cat("\n")
+    cat("\n")
     if(all(pass_fail)){
 
-        cli::cat_line(cli::col_green("All Passed! "))
+        cli::cat_line(cli::col_green("Passed All Checks!"))
 
     }else{
 
         cli::cat_line(cli::col_green({length(which(pass_fail))}),
-                 cli::col_green(" passed "),
+                 cli::col_green(" Passed "),
                  cli::col_green(cli::symbol$tick),
                  cli::col_grey(" | "),
                  cli::col_red({length(which(pass_fail == FALSE))}),
-                 cli::col_red(" failed "),
+                 cli::col_red(" Failed "),
                  cli::col_red(cli::symbol$cross)
         )
 

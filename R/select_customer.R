@@ -21,7 +21,7 @@ select_customer <- function(customer_name, customer_fields){
 
     matched_id <-  match.arg(tolower(customer_name),
                              choices = c("bhf","dhsc","datacan",
-                                         "nice","az", "nhsei", "evidera"),
+                                         "nice","az", "nhse", "evidera"),
                              several.ok = FALSE)
 
     agreement_id <- switch(matched_id,
@@ -30,7 +30,7 @@ select_customer <- function(customer_name, customer_fields){
                            "datacan" = "402417_n9z5w",
                            "nice" = "610798_n0g8z",
                            "az" = "445543_w0d4n",
-                           "nhsei" = "411785_z6x7m",
+                           "nhse" = "411785_z6x7m",
                            "evidera" = "561357_x0f3n")
 
 
@@ -39,24 +39,20 @@ select_customer <- function(customer_name, customer_fields){
 
     environment_fields <- clean_environment_fields(environment_fields)
 
+    # Standardise the cancer wait times table name if it exists
+    cwt_present = grep("(?i)^cwt_?", names(environment_fields))
+    if(length(cwt_present) == 1) names(environment_fields)[cwt_present] = "cancer_wait_times"
 
-    cli::cat_line(outputheader("Customer information"))
-
-    cli::cat_line(cli::symbol$tick,
-                  cli::col_grey(" Set Customer Name:\t"),
-                  cli::col_green({toupper(matched_id)}),
-                  col = "green")
-
-
-    cli::cat_line(cli::symbol$tick,
-                  cli::col_grey(" Set Agreement ID:\t"),
-                  cli::col_green({toupper(agreement_id)}),
-                  col = "green")
+    cli::cat_line(cli::col_grey("Customer Name:\t\t"),
+                  cli::col_green({toupper(matched_id)}))
 
 
-    cli::cat_line(cli::col_yellow(cli::symbol$info)," ",
-                  cli::col_grey("Customer tables:\t"),
-                  cli::col_br_blue({length(environment_fields)})
+    cli::cat_line(cli::col_grey("Customer Agreement ID:\t"),
+                  cli::col_green({toupper(agreement_id)}))
+
+
+    cli::cat_line(cli::col_grey("Customer Tables:\t"),
+                  cli::col_green({length(environment_fields)})
                   )
 
     return(
@@ -88,9 +84,10 @@ clean_environment_fields <- function(fields){
     fields %>%
         tidyr::separate(col = "path", into = c("database","table"),
                         sep = "\\.", remove = TRUE) %>%
-        dplyr::mutate("table_stripped" = stringr::str_remove_all(table, paste0("_",unique(.data$database)))) %>%
-        dplyr::relocate("table_stripped", .before = .data$database) %>%
+        dplyr::mutate("table_stripped" = stringr::str_remove_all(table, paste0("_",unique(database)))) %>%
+        dplyr::relocate("table_stripped", .before = database) %>%
         dplyr::mutate(dplyr::across("table_stripped", ~stringr::str_replace_all(.x, "_\\d{4}$", "_{fyear}"))) %>%
         dplyr::mutate(dplyr::across("table_stripped", ~stringr::str_replace_all(.x, "_\\[fyear\\]$", "_{fyear}"))) %>%
         split(~table_stripped)
+
 }
