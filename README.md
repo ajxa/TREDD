@@ -1,19 +1,21 @@
-# Trusted Research Environment (TRE) Service for England Data Dictionary code 💥📖💥
+# Trusted Research Environment Data Dictionary (TREDD) 💥📖💥
 
-This package contains all the functions to format an excel workbook comprising numerous data dictionary table sheets into one coherent, visually appealing (sort of 🤔) data dictionary.
+This package contains a collection of functions which enable users to generate one coherent, visually appealing (sort of 🤔) data dictionary. The main package function `generate_dd()` will return a formatted data dictionary excel workbook, where each sheet corresponds to a specific dataset. 
 
-The main function `generate_dd()` will return a formatted data dictionary excel workbook, where each sheet corresponds to a specific dataset. There are a number of steps which need to be completed in order to enable the hyperlinks in the drop-down list on the home tab:
+Once the dictionary is outputted, the user will need to complete a small number of clean-up steps in order to ensure the home tab drop down hyperlinks work as intended:
 
-1. A sheet reference named "select_sheet" will have already been created in the outputted file - please confirm this is the case by going on `Formulas > Name Manager`.
+1. Check to see is a sheet reference named `select_sheet` was successfully created in the output file by  selecting `Formulas > Name Manager`.
 
-2. Next, ensuring that your cursor is highlight the drop-down list cell, insert a hyperlink by going on `Insert > Link > This Document > Defined Names > 'select_sheet'`.
+2. Ensuring that your cursor is on the the drop-down list cell, insert a hyperlink by selecting `Insert > Link > This Document > Defined Names > 'select_sheet'`. Once set, test if this drop-down hyperlink points to an empty cell when clicked.
 
-3. Test if this hyperlink points to an empty cell when selected.
-
-4. Then go to `Formulas > Name Manager > and "select_sheet"`. Then enter the following into the `'Refers To'` box:
+3. Select `Formulas > Name Manager > and "select_sheet"` and enter the following into the `'Refers To'` box:
 
         =INDIRECT(ADDRESS(3,1,,,INDIRECT("select_dataset")))
 
-5.  Save the defined name and test if the links work as intended. Once done the newly created hyperlink text should be re-formatted as:
+
+
+Save the defined name and test if the links work as intended. 
+
+After adding the hyperlink, please reformat the hyperlink, drop down cell using the following properties, to ensure consistency will the rest of the file:
 
     `face = bold, size = 20, colour = black, family='Arial'`
