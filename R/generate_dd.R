@@ -59,11 +59,15 @@ generate_dd <- function(customer_name,
 
     missing_keys_found = missing_split_keys(split_lookups)
 
+
     if(!is.logical(missing_keys_found)){
+
+        cli::cli_alert_danger("Missing fields detected in split dictionaries")
+
+        cli::cli_inform("- Please check the output and re-run")
 
         return(missing_keys_found)
 
-        cli::cli_abort("Missing fields detected in split dictionaries")
 
     }
 
