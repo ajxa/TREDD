@@ -8,7 +8,7 @@ The main package function `generate_dd` returns a formatted data dictionary in t
 
 Once the dictionary is generated, the following steps need to be completed to ensure the home tab drop-down hyperlinks work as intended:
 
-1.  Check to see is a sheet reference named `select_sheet` was successfully created in the output file by selecting `Formulas > Name Manager`:
+1.  Check to see if a sheet reference named `select_sheet` was successfully created in the output file by selecting `Formulas > Name Manager`:
 
 <img src="inst/add_hyperlinks_1.gif" width="100%"/>
 
@@ -16,7 +16,7 @@ Once the dictionary is generated, the following steps need to be completed to en
 
 <img src="inst/add_hyperlinks_2.gif" width="100%"/>
 
-3.  Select `Formulas > Name Manager > and "select_sheet"` and enter the following into the `'Refers To'` box:
+3.  Select `Formulas > Name Manager > and "select_sheet"` and enter the following into the `'Refers To'` box and then close the dialogue box (save the changes when prompted):
 
     ```         
          =INDIRECT(ADDRESS(3,1,,,INDIRECT("select_dataset")))
