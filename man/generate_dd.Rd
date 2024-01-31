@@ -10,7 +10,8 @@ generate_dd(
   unformatted_dict_path,
   output_hometab_filepath,
   output_filepath = getwd(),
-  overwrite_output = TRUE
+  overwrite_output = TRUE,
+  tell_fortune = FALSE
 )
 }
 \arguments{
@@ -26,6 +27,8 @@ all the fields present in the selected customers agreement}
 \item{output_filepath}{the file path where you wish to save formatted excel workbook}
 
 \item{overwrite_output}{logical should the outputfile be overwritten, if it exists (default:TRUE)}
+
+\item{tell_fortune}{logical should a R-based fortune be printed to the console (default:FALSE)}
 }
 \value{
 A list of length 4: unformatted_dd = a list of the unformatted dictionary tables before cleaning;

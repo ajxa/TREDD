@@ -33,7 +33,6 @@ select_customer <- function(customer_name, customer_fields){
                            "nhse" = "411785_z6x7m",
                            "evidera" = "561357_x0f3n")
 
-
     environment_fields <- readr::read_csv(customer_fields,
                                           col_types = readr::cols())
 

@@ -13,7 +13,6 @@ expected = list(
 
 
 # Lookup of tables which need to split up into multiple tables
-
 split_tables_lookup = list(
     nat_cancer_reg = c("^cancer_?reg", "^national_?cancer_?reg"),
     rapid_cancer_reg = c("^(proxy|rapid)(_cancer)?_?reg", "^(proxy|rapid)(_cancer)?_?reg"),

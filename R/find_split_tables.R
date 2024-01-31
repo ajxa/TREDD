@@ -1,8 +1,21 @@
-#' Search a list of customer tables and identify if any tables are from the cancer dataset
+#' Search a list of customer tables using a split table lookup list and identify
+#' if any tables that require splitting into multiple tables are present. The
+#' default split table lookup list is defined in `split_tables_lookup`, but can
+#' be editing and overwritten by the user and then passed to the function.
 #' @param dictionary_tables a list of data.frames where each element corresponds
-#'                          to a specific data dictionary table
+#'                          to a specific data dictionary table found within the
+#'                          unformatted data dictionary excel file.
 #' @param customer_tables a list of data.frames where each element corresponds to a
-#'                        specific customer table, based on their field list information
+#'                        specific table that is provisioned for a customer. This table
+#'                        will also comprise a list of fields that are present within
+#'                        the table.
+#' @param split_tables_lookup a list of character vectors (length = 2) where each
+#'                            element corresponds to a table that is to be
+#'                            split into multiple tables. the first element
+#'                            contains a regular expression that is used to identify
+#'                            tables that are to be split. The second element contains
+#'                            a regular expression that identifies the data dictionary
+#'                            table that is to be split.
 #' @details The cancer dataset currently, comprises of the following tables:
 #' - National Cancer Registrations (NCR)
 #' - Rapid Cancer Registration (RCR)
@@ -22,8 +35,13 @@
 #' \item{dd}{A character vector of the data dictionary table (length == 1)}
 #'
 #' @export
-find_tables_to_split = function(customer_tables, dictionary_tables){
+find_tables_to_split = function(
+        customer_tables,
+        dictionary_tables,
+        split_tables_lookup = split_tables_lookup
+        ){
 
+    # The split tables lookup
     for (table in seq_along(split_tables_lookup)){
 
         found_tables = grep(split_tables_lookup[[table]][["customer"]],
@@ -65,7 +83,9 @@ find_tables_to_split = function(customer_tables, dictionary_tables){
 
     }
 
-    return(split_tables_lookup)
+
+
+    return(lapply(split_tables_lookup, purrr::flatten))
 
 }
 
