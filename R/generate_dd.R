@@ -108,7 +108,6 @@ generate_dd = function(
       agreement_id = customer$agreement_id
       )
 
-
     cleaned = get_common_fields(
       dictionary = filt_dictionary$dictionary,
       reference = filt_dictionary$fields,
