@@ -6,7 +6,9 @@
 #' @param customer_name Character vector corresponding to one of the approved users
 #' @param customer_fields file path corresponding to a csv file which lists
 #'                        all the fields present in the selected customers agreement
-#' @param customer_lookup Data.frame lookup of customers and their specific agreement ids
+#' @param customer_list Lookup list of current customers and their specific agreement ids.
+#'                      This list is apart of the package and can be accessed by the user, but
+#'                      can also easily be modied by the user to include new customers.
 #' @return list of length 3 comprising:
 #'
 #'         customer_name = customer's name
