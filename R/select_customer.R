@@ -6,39 +6,33 @@
 #' @param customer_name Character vector corresponding to one of the approved users
 #' @param customer_fields file path corresponding to a csv file which lists
 #'                        all the fields present in the selected customers agreement
+#' @param customer_lookup Data.frame lookup of customers and their specific agreement ids
 #' @return list of length 3 comprising:
 #'
-#'         user = customer's name
+#'         customer_name = customer's name
 #'         agreement_id = customer's agreement id
 #'         fields = all fields present in the customer's agreement
 #' @export
-select_customer <- function(customer_name, customer_fields){
+select_customer <- function(customer_name, customer_fields, customer_list=customer_lookup){
 
+    if(length(customer_name) > 1) stop("customer_name must be a single string")
     if(missing(customer_name)) stop("customer_name is missing!")
     if(missing(customer_fields)) stop("customer_fields_path is missing!")
     if(tools::file_ext(customer_fields) != "csv") stop("customer_fields is not a csv")
 
+    matched_id = tolower(customer_name)
+    found_customer = matched_id %in% names(customer_list)
 
-    matched_id <-  match.arg(tolower(customer_name),
-                             choices = c("bhf","dhsc","datacan",
-                                         "nice","az", "nhse", "evidera"),
-                             several.ok = FALSE)
+    if(length(found_customer) == 0) stop("Customer not found in the supplied lookup table")
+    if(length(found_customer) > 1) stop("Multiple customers found in the supplied lookup table")
 
-    agreement_id <- switch(matched_id,
-                           "bhf" = "391419_j3w9t",
-                           "dhsc" = "484452_h8s1l",
-                           "datacan" = "402417_n9z5w",
-                           "nice" = "610798_n0g8z",
-                           "az" = "445543_w0d4n",
-                           "nhse" = "411785_z6x7m",
-                           "evidera" = "561357_x0f3n")
+    agreement_id = unlist(customer_list[matched_id], use.names = FALSE)
 
-    environment_fields <- readr::read_csv(customer_fields,
-                                          col_types = readr::cols())
+    environment_fields = readr::read_csv(customer_fields, col_types = readr::cols())
 
-    environment_fields <- clean_environment_fields(environment_fields)
+    environment_fields = clean_environment_fields(environment_fields)
 
-    # Standardise the cancer wait times table name if it exists
+    # Standardise long excel field names if they are present
     cwt_present = grep("(?i)^cwt_?", names(environment_fields))
     if(length(cwt_present) == 1) names(environment_fields)[cwt_present] = "cancer_wait_times"
 
@@ -56,15 +50,15 @@ select_customer <- function(customer_name, customer_fields){
 
     return(
 
-        list(user = matched_id,
-            agreement_id = agreement_id,
-            fields = environment_fields)
+        list(
+          customer_name = matched_id,
+          agreement_id = agreement_id,
+          fields = environment_fields
+        )
 
         )
 
 }
-
-
 
 
 #' Clean environment fields

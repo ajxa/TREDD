@@ -39,8 +39,9 @@ generate_dd = function(
                   "\n")
 
     customer = TREDD::select_customer(
-        customer_name = customer_name, customer_fields = customer_fields_path
-    )
+        customer_name = customer_name,
+        customer_fields = customer_fields_path
+        )
 
     cli::cat_line("\n",
                   cli::rule(left = "Unformatted Dictionaries",
@@ -150,7 +151,7 @@ generate_dd = function(
     create_formatted_workbook(
       dictionary = cleaned,
       hometab_filepath = output_hometab_filepath,
-      customer_name = customer$user,
+      customer_name = customer$customer_name,
       customer_agreement = customer$agreement_id,
       outfilepath = output_filepath,
       overwrite_existing = overwrite_output

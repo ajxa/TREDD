@@ -29,5 +29,18 @@ split_tables_lookup = lapply(split_tables_lookup, \(x){
 })
 
 
-usethis::use_data(expected, split_tables_lookup,
+
+# Customer list with agreement ids
+customer_lookup = list(
+    bhf = "391419_j3w9t",
+    dhsc = "484452_h8s1l",
+    datacan = "402417_n9z5w",
+    ncie = "610798_n0g8z",
+    az = "445543_w0d4n",
+    nhse = "411785_z6x7m",
+    evidera = "561357_x0f3n"
+)
+
+
+usethis::use_data(expected, split_tables_lookup, customer_lookup,
                   overwrite = TRUE, internal = TRUE)
