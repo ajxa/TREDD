@@ -2,6 +2,7 @@
 
 import json
 import pandas as pd
+import numpy as np
 
 """
 This is a python file used to unpack an excel file with multiple sheets into dataframes,
@@ -41,9 +42,40 @@ unpacked_dict = {}
 for excel in excels_to_unpack:
     data_dictionary = pd.read_excel(f'.\excels_to_unpack\{excel["file_name"]}', sheet_name=None) 
     # data_dictionary is a dictionary containing each sheet in the excel (now dataframes)
+    sheets_to_delete = ["Home", "Refinements", "Dictonary_Priorities"]
+    for sheet in sheets_to_delete:
+        del data_dictionary[sheet]
 
     for dataset in data_dictionary.keys():
+        data_dictionary_df = data_dictionary[dataset]
+
+        for column in data_dictionary_df.columns:
+            data_dictionary_df[column].replace(to_replace=np.nan, value="None", inplace=True)
+
         unpacked_dict[dataset] = data_dictionary[dataset].to_dict("index")
-   
+  
 with open("unpacked.json", "w+") as file:
     file.write(json.dumps(unpacked_dict, indent=4))
+
+#for dataset in unpacked_dict:
+#    with open(f"unpacked_{dataset}.json", "w+") as file:
+#        file.write(json.dumps(unpacked_dict[dataset], indent=4))
+
+# problem: too many rows when copying into DAE. Cutting off half way. Need to split unpacked.json into sections.
+# Group datasets together? Or just group every 4? Lots of copying across...
+"""
+for excel in excels_to_unpack:
+    data_dictionary = pd.read_excel(f'.\excels_to_unpack\{excel["file_name"]}', sheet_name=None) 
+    # data_dictionary is a dictionary containing each sheet in the excel (now dataframes)
+
+    for dataset in data_dictionary.keys():
+        data_dictionary_df = data_dictionary[dataset]
+        for column in data_dictionary_df.columns:
+            # replacing the "\n" in the strings as gives EOL error later
+            data_dictionary_df[column].replace(regex=r'\n',value="", inplace=True)
+
+        unpacked_dict[dataset] = data_dictionary[dataset].to_dict("index")
+  
+with open("unpacked.json", "w+") as file:
+    file.write(json.dumps(unpacked_dict, indent=4))
+"""
