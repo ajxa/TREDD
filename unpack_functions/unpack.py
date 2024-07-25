@@ -8,7 +8,6 @@ import numpy as np
 This is a python file used to unpack an excel file with multiple sheets into dataframes,
 before saving them as a json file.
 The contents of this json file can then be copied directly into DAE.
-
 unpacked.json : the outputted json dictionary. For each row of each dataset dictionary (excel sheet), it follows
 the form below. "row_index" is 0, 1, 2 etc (the row in the original excel sheet).
     "deaths": {
@@ -25,20 +24,73 @@ the form below. "row_index" is 0, 1, 2 etc (the row in the original excel sheet)
                 "notes": "Notes notes notes.",
                 "links": "link here"
             } ... 
-
 To convert dictionary representation back to dataframe (in DAE): 
     unpacked_dict["deaths"] is dictionary representation of deaths dataset
     deaths_df = pd.DataFrame.from_dict(unpacked_dict["deaths"], orient="index")
 """
 
-excels_to_unpack = [
-    {
-        "file_name": "unformatted_data_dictionary.xlsx"
+excels_to_unpack = {
+        "unformatted_dd_file_name": "unformatted_data_dictionary.xlsx",
+        "file_name": "dhsc_dd_2024_02_28.xlsx"
     }
-]
 
-unpacked_dict = {}
+# unpack the unformatted data dictionary
+def unpack_unformatted_dd(unformatted_dd_file_name:str):
+    """
+    Unpacks the unformatted excel data dictionary into a json string, which
+    can then be copied directly into DAE.
+    """
+    unpacked_dict = {}
 
+    data_dictionary = pd.read_excel(f'.\excels_to_unpack\{unformatted_dd_file_name}', sheet_name=None) 
+    # data_dictionary is a dictionary containing each sheet in the excel (now dataframes)
+    sheets_to_delete = ["Home", "Refinements", "Dictonary_Priorities"]
+    for sheet in sheets_to_delete:
+        del data_dictionary[sheet]
+
+    for dataset in data_dictionary.keys():
+        data_dictionary_df = data_dictionary[dataset]
+
+        for column in data_dictionary_df.columns:
+            data_dictionary_df[column].replace(to_replace=np.nan, value="None", inplace=True)
+
+        unpacked_dict[dataset] = data_dictionary[dataset].to_dict("index")
+
+    with open("unpacked.json", "w+") as file:
+        file.write(json.dumps(unpacked_dict, indent=4))
+
+def unpack_table_mapping(data_dictionary_file_name: str, sheet_name: str):
+    """
+    Function to unpack the table and display_name_label columns
+    from a data dictionary excel, outputted as a json string that can
+    be copied directly into DAE. 
+    This is because the unformatted data dictionary does not specify 
+    the tables a field belongs to.
+
+    Applicable to msds-v2 and mhsds
+
+    data_dictionary_file_name: name of dictionary file in excels_to_unpack folder.
+        Needs .xlsx at end
+    sheet_name: name of sheet in excel, representing data dictionary interested in
+    """
+    unpacked_dict = {}
+
+    data_dictionary = pd.read_excel(f'.\excels_to_unpack\{data_dictionary_file_name}', sheet_name=sheet_name, header=2)
+    print(data_dictionary)
+    # filter above to columns: table, display_name / display_name_label
+    data_dictionary = data_dictionary["table", "display_name", "display_name_label"]
+    print(data_dictionary)
+
+    with open(f"unpacked_{sheet_name}_mapping.json", "w+") as file:
+        file.write(json.dumps(unpacked_dict, indent=4))
+
+    return
+
+
+unpack_table_mapping(data_dictionary_file_name="dhsc_dd_2024_02_28.xlsx", sheet_name="msds-v2")
+
+
+"""
 for excel in excels_to_unpack:
     data_dictionary = pd.read_excel(f'.\excels_to_unpack\{excel["file_name"]}', sheet_name=None) 
     # data_dictionary is a dictionary containing each sheet in the excel (now dataframes)
@@ -53,29 +105,7 @@ for excel in excels_to_unpack:
             data_dictionary_df[column].replace(to_replace=np.nan, value="None", inplace=True)
 
         unpacked_dict[dataset] = data_dictionary[dataset].to_dict("index")
-  
-with open("unpacked.json", "w+") as file:
-    file.write(json.dumps(unpacked_dict, indent=4))
-
-#for dataset in unpacked_dict:
-#    with open(f"unpacked_{dataset}.json", "w+") as file:
-#        file.write(json.dumps(unpacked_dict[dataset], indent=4))
-
-# problem: too many rows when copying into DAE. Cutting off half way. Need to split unpacked.json into sections.
-# Group datasets together? Or just group every 4? Lots of copying across...
-"""
-for excel in excels_to_unpack:
-    data_dictionary = pd.read_excel(f'.\excels_to_unpack\{excel["file_name"]}', sheet_name=None) 
-    # data_dictionary is a dictionary containing each sheet in the excel (now dataframes)
-
-    for dataset in data_dictionary.keys():
-        data_dictionary_df = data_dictionary[dataset]
-        for column in data_dictionary_df.columns:
-            # replacing the "\n" in the strings as gives EOL error later
-            data_dictionary_df[column].replace(regex=r'\n',value="", inplace=True)
-
-        unpacked_dict[dataset] = data_dictionary[dataset].to_dict("index")
-  
+        
 with open("unpacked.json", "w+") as file:
     file.write(json.dumps(unpacked_dict, indent=4))
 """
