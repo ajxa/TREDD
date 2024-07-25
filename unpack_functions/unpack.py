@@ -72,40 +72,24 @@ def unpack_table_mapping(data_dictionary_file_name: str, sheet_name: str):
     data_dictionary_file_name: name of dictionary file in excels_to_unpack folder.
         Needs .xlsx at end
     sheet_name: name of sheet in excel, representing data dictionary interested in
-    """
-    unpacked_dict = {}
 
-    data_dictionary = pd.read_excel(f'.\excels_to_unpack\{data_dictionary_file_name}', sheet_name=sheet_name, header=2)
-    print(data_dictionary)
+    unpacked_dict={"table":"display_name",
+                   "table":"display_name"}
+    """
+    dictionary_df = pd.read_excel(f'.\excels_to_unpack\{data_dictionary_file_name}', sheet_name=sheet_name, header=2)
+
     # filter above to columns: table, display_name / display_name_label
-    data_dictionary = data_dictionary["table", "display_name", "display_name_label"]
-    print(data_dictionary)
+    dictionary_df = dictionary_df[["table", "display_name"]]
+    # remove dars_nic number from table column
+    dictionary_df["table"] = dictionary_df["table"].replace(to_replace='_dars_nic_[0-9]{6}_\w{5}', regex=True, value="")
+
+    unpacked_dict = dictionary_df.to_dict(orient="records")
 
     with open(f"unpacked_{sheet_name}_mapping.json", "w+") as file:
         file.write(json.dumps(unpacked_dict, indent=4))
-
     return
 
 
 unpack_table_mapping(data_dictionary_file_name="dhsc_dd_2024_02_28.xlsx", sheet_name="msds-v2")
 
-
-"""
-for excel in excels_to_unpack:
-    data_dictionary = pd.read_excel(f'.\excels_to_unpack\{excel["file_name"]}', sheet_name=None) 
-    # data_dictionary is a dictionary containing each sheet in the excel (now dataframes)
-    sheets_to_delete = ["Home", "Refinements", "Dictonary_Priorities"]
-    for sheet in sheets_to_delete:
-        del data_dictionary[sheet]
-
-    for dataset in data_dictionary.keys():
-        data_dictionary_df = data_dictionary[dataset]
-
-        for column in data_dictionary_df.columns:
-            data_dictionary_df[column].replace(to_replace=np.nan, value="None", inplace=True)
-
-        unpacked_dict[dataset] = data_dictionary[dataset].to_dict("index")
-        
-with open("unpacked.json", "w+") as file:
-    file.write(json.dumps(unpacked_dict, indent=4))
-"""
+unpack_table_mapping(data_dictionary_file_name="dhsc_dd_2024_02_28.xlsx", sheet_name="mhsds")

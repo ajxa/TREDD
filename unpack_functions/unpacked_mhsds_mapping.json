@@ -1,0 +1,3374 @@
+[
+    {
+        "table": "mhs001mpi",
+        "display_name": "accommodationnationallatest"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "accommodationproviderlatest"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "agedeath"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "agerepperiodend"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "agerepperiodstart"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "county"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "defaultpostcode"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "electoralward"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "employmentnationallatest"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "employmentproviderlatest"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "ethniccategory"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "ethniccategory2021"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "ethnicityhigher"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "ethnicitylow"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "genderidcode"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "gendersameatbirth"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "icrecccg"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "icrecccgname"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "imdquart"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "languagecodepreferred"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "ladistrictauth"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "lsoa2011"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "nhsnumberstatus"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "orgidccgres"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "orgideduestab"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "orgidlocalpatientid"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "patmrecinrp"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "maritalstatus"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "gender"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "postcodedistrict"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "regionicrecccg"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "stpicrecccg"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "orgidicbres"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "icrecicb"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "icrecicbname"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "icrecsubicb"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "icrecsubicbname"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "orgidsubicblocresidence"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "regionicrecsubicb"
+    },
+    {
+        "table": "mhs001mpi",
+        "display_name": "regionicrecsubicbname"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "enddategmpregistration"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "gmpcodereg"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "gpdistancehome"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "ladistrictauthgppractice"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "orgidccggppractice"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "startdategmpregistration"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "orgidicbgppractice"
+    },
+    {
+        "table": "mhs002gp",
+        "display_name": "orgidsubicblocgp"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "accommodationtype"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "accommodationtypeenddate"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "accommodationtypedate"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "accommodationtypestartdate"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "ageaccomtypedate"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "schplacementtype"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "settledaccommodationind"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs003accommstatus",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "employstatus"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "employstatusenddate"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "employstatusrecdate"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "employstatusstartdate"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "weekhoursworked"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs004empstatus",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "cpp"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "constsuperreqduetodis"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "educationalassessoutcome"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "emerpsychdate"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "exbafindicator"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "psychprescdate"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "lacstatus"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "laclegalstatus"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "manpsychdate"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "offencehistory"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "parentalresp"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "propsychdate"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "psychtreatdate"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "reasonableadjustmentind"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "youngcarer"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs005patind",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "careprofservorteamtypeassoc"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "enddateasscarecoord"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "inacttimecc"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "startdateasscarecoord"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs006mhcarecoord",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs007disabilitytype",
+        "display_name": "disabcode"
+    },
+    {
+        "table": "mhs007disabilitytype",
+        "display_name": "disabimpacpercep"
+    },
+    {
+        "table": "mhs007disabilitytype",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs007disabilitytype",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs007disabilitytype",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs007disabilitytype",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "careplancreatdate"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "careplancreationtime"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "careplanid_deid"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "careplanimplementdate"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "careplanlastupdatedate"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "careplanlastupdatetime"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "careplantypemh"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "uniqcareplanid_deid"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs008careplantype",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "careplancontentagreedby"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "careplancontentagreeddate"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "careplancontentagreedtime"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "careplanid_deid"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "familycareplanindicator"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "nofamilycareplanreason"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "uniqcareplanid_deid"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs009careplanagreement",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "assistivetechnologyfinding"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "assistivetechnologypresctimestamp"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "socpercircumstance"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "socpercircumstancerectimestamp"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs011socpercircumstances",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat",
+        "display_name": "ovsvischcat"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat",
+        "display_name": "ovsvischcatenddate"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat",
+        "display_name": "ovsvischcatappdate"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "ageservreferdischdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "ageservreferrecdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "clinrespprioritytype"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "countattendedcarecontactsinfinancialyearpersonwas017attimeofcontact"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "countofattendedcarecontacts"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "countofattendedcarecontactsinfinancialyear"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "decisiontotreatdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "decisiontotreattime"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "dischplancreationdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "dischplancreationtime"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "dischplanlastupdateddate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "dischplanlastupdatedtime"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "firstattendedcontactinfinancialyeardate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "firstattendedcontactinrpdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "firstcontacteverdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "firstcontacteverwhereageatcontactunder18date"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "inacttimeref"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "orgidcomm"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "orgidreferring"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "primreasonreferralmh"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "reasonoat"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "referralrequestreceiveddate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "referralrequestreceivedtime"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "referralserviceareasopenendrplda"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "referralserviceareasstartinginrplda"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "referringcareprofessionalstaffgroup"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "secondattendedcontacteverdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "secondattendedcontactinfinancialyeardate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "secondcontacteverwhereageatcontactunder18date"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "servdischdate"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "servdischtime"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "sourceofreferralmh"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "specialisedmhservicecode"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs101referral",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "ageservreferclosure"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "ageservreferrejection"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "careprofteamlocalid_deid"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "inacttimest"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "referclosuredate"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "referclosreason"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "referclosuretime"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "referrejectiondate"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "referrejectreason"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "referrejectiontime"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "servteamtypereftomh"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "servicetypename"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "uniqcareprofteamid_deid"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs102servicetypereferredto",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs103otherreasonreferral",
+        "display_name": "otherreasonrefermh"
+    },
+    {
+        "table": "mhs103otherreasonreferral",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs103otherreasonreferral",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs103otherreasonreferral",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs103otherreasonreferral",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs103otherreasonreferral",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "agerefertreatenddate"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "agerefertreatstartdate"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "orgidpatpathidissuer"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "patpathid_deid"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "refertotreatperiodenddate"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "refertotreatperiodstartdate"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "refertotreatperiodstatus"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "timereferstartandenddate"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "waittimemeasuretype"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs104rtt",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "coderefprocandprocstatus"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "decisiontoreferdate"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "decisiontorefertime"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "onwardreferdate"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "onwardreferreason"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "onwardrefertime"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "orgidreceiving"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "oatreason"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs105onwardreferral",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "dischplancontentagreedby"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "dischplancontentagreeddate"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "dischplancontentagreedtime"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs106dischargeplanagreement",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "actloctypecode"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "admincatcode"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "agecarecontdate"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "attendordnacode"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "carecontcanceldate"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "carecontcancelreas"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "carecontdate"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "carecontactid_deid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "carecontpatientthermode"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "carecontsubj"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "careconttime"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "careprofteamlocalid_deid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "clincontdurofcarecont"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "comperimhpartassessofferind"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "consmechanismmh"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "constype"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "contlocdistancehome"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "earliestclinappdate"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "earliestreasonofferdate"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "orgidcomm"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "placeofsafetyind"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "plannedcarecontindicator"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "reasonableadjustmentmade"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "specialisedmhservicecode"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "timereferandcarecontact"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "uniqcarecontid_deid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "uniqcareprofteamid_deid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs201carecontact",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "careactid_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "carecontactid_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "clincontactdurofcareact"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "codefind"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "codeobs"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "codeprocandprocstatus"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "findschemeinuse"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "mastericd10findingcode"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "mastericd10findingdesc"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "mastersnomedctfindingcode"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "mastersnomedctfindingterm"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "mastersnomedctobscode"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "mastersnomedctobsterm"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "obsvalue"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "unitmeasure"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "uniqcareactid_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "uniqcarecontid_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs202careactivity",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "carecontactid_deid"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "otherpersoninattend"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "reasonpatientnoimca"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "reasonpatientnoimha"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "uniqcarecontid_deid"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs203otherattend",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "ageatindirectactivity"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "careprofteamlocalid_deid"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "codefind"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "codeindactprocandprocstatus"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "durationindirectact"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "findschemeinuse"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "indirectactdate"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "indirectacttime"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "mastericd10findingcode"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "mastericd10findingdesc"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "mastersnomedctfindingcode"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "mastersnomedctfindingterm"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "orgidcomm"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs204indirectactivity",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "actloctypecode"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "clincontdurofgroupsess"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "groupsessdate"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "groupsessid_deid"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "groupsesstype"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "numberofgroupsessparticip"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "orgidcomm"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "servteamtypereftomh"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs301groupsession",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "agerepperiodend"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "agerepperiodstart"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "carecontactdatemhdropincontact"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "consmechanismmh"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "endtimedropincontact"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "ethniccategory"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "ethniccategory2021"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "genderidcode"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "gendersameatbirth"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "mhdropincontactid_deid"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "mhdropincontactoutcome"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "mhdropincontactservicetype"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "orgidreceiving"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "starttimedropincontact"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "uniqmhdropincontactid_deid"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs302mhdropincontact",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "enddatemhactlegalstatusclass"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "endtimemhactlegalstatusclass"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "expirydatemhactlegalstatusclass"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "expirytimemhactlegalstatusclass"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "inacttimemhaperiod"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "mentalcat"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "legalstatusclassperiodendreason"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "mhactlegalstatusclassperiodid_deid"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "legalstatusclassperiodstartreason"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "legalstatuscode"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "startdatemhactlegalstatusclass"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "starttimemhactlegalstatusclass"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "uniqmhactepisodeid_deid"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs401mhactperiod",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "enddaterespclinassign"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "mhactlegalstatusclassperiodid_deid"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "startdaterespclinassign"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "uniqmhactepisodeid_deid"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "enddatemhconddisch"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "absdischresp"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "mhactlegalstatusclassperiodid_deid"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "conddischendreason"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "startdatemhconddisch"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "uniqmhactepisodeid_deid"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs403conditionaldischarge",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "commtreatordendreason"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "enddatecommtreatord"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "expirydatecommtreatord"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "mhactlegalstatusclassperiodid_deid"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "startdatecommtreatord"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "uniqmhactepisodeid_deid"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs404commtreatorder",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "enddatecommtreatordrecall"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "endtimecommtreatordrecall"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "mhactlegalstatusclassperiodid_deid"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "startdatecommtreatordrecall"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "starttimecommtreatordrecall"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "uniqmhactepisodeid_deid"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs405commtreatorderrecall",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "sourceadmmhhospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "decidedtoadmitdate"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "decidedtoadmittime"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "destofdischhospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "dischdatehospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "dischtimehospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "estimateddischdatehospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "hospprovspellid_deid"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "inacttimehps"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "losdischhosspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "loshosspelleorp"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "methadmmhhospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "methofdischmhhospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "planneddestdisch"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "planneddischdatehospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "postcodedistrictmainvisitor"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "postcodedistrictdischdest"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "startdatehospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "starttimehospprovspell"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "timeestdischdate"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "timeplandischdate"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "transformingcarecategory"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "transformingcareind"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs501hospprovspell",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "beddayswsendrp"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "bedtypeadultdischarge"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "enddatemhtrialleave"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "enddatewardstay"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "endtimewardstay"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "hospitalbedtypemh"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "hospitalbedtypename"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "hospprovspellid_deid"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "inacttimews"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardage"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "intendclincareintencodemh"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "lockedwardind"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardsextypecode"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "specialisedmhservicecode"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "specialisedmhservicename"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "startdatewardstay"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "starttimewardstay"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardcode"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardlocdistancehome"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardseclevel"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardtype"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardsaybedtypeslkup"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardstayserviceareasopenendrplda"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "wardstayserviceareasstartinginrplda"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs502wardstay",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "enddateasscareprof"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "hospprovspellid_deid"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "startdateasscareprof"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "treatfunccodemh"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs503assignedcareprof",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "beddaysddrp"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "enddatedelaydisch"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "hospprovspellid_deid"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "attribtoindic"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "delaydischreason"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "orgidrespladelaydisch"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "startdatedelaydisch"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs504delayeddischarge",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "enddaterestrictiveintinc"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "endtimerestrictiveintinc"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "hospprovspellid_deid"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "restrictiveintincid_deid"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "restrictiveintpireviewheldcarepers"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "restrictiveintpireviewheldpat"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "restrictiveintpireviewnotheldreaspat"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "restrictiveintreason"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "startdaterestrictiveintinc"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "starttimerestrictiveintinc"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "dateassault"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs506assault",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "dateselfharm"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs507selfharm",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "enddatehomeleave"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "endtimehomeleave"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "homeleavedaysendrp"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "startdatehomeleave"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "starttimehomeleave"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs509homeleave",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "enddatemhleaveabs"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "endtimemhleaveabs"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "escortedleaveindicator"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "loadaysrp"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "mhleaveabsendreason"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "startdatemhleaveabs"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "starttimemhleaveabs"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs510leaveofabsence",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "awoldaysendrp"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "enddatemhabswoleave"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "endtimemhabswoleave"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "mhabswoleaveendreason"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "startdatemhabswoleave"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "starttimemhabswoleave"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs511absencewithoutleave",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "enddateorgcodecomm"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "hospprovspellid_deid"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "orgidcomm"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "startdateorgcodecomm"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs512hospspellcommassper",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "substancemisuse"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs513substancemisuse",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "enddatemhtrialleave"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "endtimemhtrialleave"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "startdatemhtrialleave"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "starttimemhtrialleave"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs514trialleave",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "enddaterestrictiveinttype"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "endtimerestrictiveinttype"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "restrictiveintincid_deid"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "restraintinjurycarepers"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "restraintinjuryotherpers"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "restraintinjurypatient"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "restrictiveinttype"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "restrictiveinttypeid_deid"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "startdaterestrictiveinttype"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "starttimerestrictiveinttype"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "policeassistarrdate"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "policeassistarrtime"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "policeassistreqdate"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "policeassistreqtime"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "policerestraintforceusedind"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "uniqwardstayid_deid"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "wardstayid_deid"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs516policeassistancerequest",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "enddatesmhepc"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "hospprovspellid_deid"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "orgidcomm"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "smhepccharge"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "startdatesmhepc"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "uniqhospprovspellid_deid"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "codeddiagtimestamp"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "diagschemeinuse"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "mastericd10prevdiagcode"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "mastericd10prevdiagdesc"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "mastersnomedctprevdiagcode"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "mastersnomedctprevdiagterm"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs601medhistprevdiag",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "codedprovdiagtimestamp"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "diagschemeinuse"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "mastericd10provdiagcode"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "mastericd10provdiagdesc"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "mastersnomedctprovdiagcode"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "mastersnomedctprovdiagterm"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs603provdiag",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "codeddiagtimestamp"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "diagschemeinuse"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "mastericd10primdiagcode"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "mastericd10primdiagdesc"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "mastersnomedctprimdiagcode"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "mastersnomedctprimdiagterm"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs604primdiag",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "codeddiagtimestamp"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "diagschemeinuse"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "mastericd10secdiagcode"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "mastericd10secdiagdesc"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "mastersnomedctsecdiagcode"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "mastersnomedctsecdiagterm"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs605secdiag",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "ageassesstoolrefercompdate"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "asstoolcomptimestamp"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "persscore"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "servicerequestid_deid"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "ageassesstoolcont"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "careactid_deid"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "persscore"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "uniqcareactid_deid"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "uniqcarecontid_deid"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "uniqservreqid_deid"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs608anonselfassess",
+        "display_name": "actloctypecode"
+    },
+    {
+        "table": "mhs608anonselfassess",
+        "display_name": "asstoolcomptimestamp"
+    },
+    {
+        "table": "mhs608anonselfassess",
+        "display_name": "orgidcomm"
+    },
+    {
+        "table": "mhs608anonselfassess",
+        "display_name": "persscore"
+    },
+    {
+        "table": "mhs608anonselfassess",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs608anonselfassess",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "cpaepisodeid_deid"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "enddatecpa"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "startdatecpa"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "uniqcpaepisodeid_deid"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs701cpacareepisode",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "cpaepisodeid_deid"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "cpareviewdate"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "uniqcpaepisodeid_deid"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs702cpareview",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "amhcareclustcodeinit"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "asstoolcompdate"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "asstoolcomptime"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "clustcat"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "clustid_deid"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "clusttoolassreason"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "fldcareclustinit"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "ldcareclustinit"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "mhcareclustersuperclass"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "uniqclustid_deid"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs801clustertool",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "clustid_deid"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "persscore"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "uniqclustid_deid"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs802clusterassess",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "amhcareclustcodefin"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "clusterendrpflag"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "clusteropenendrpflag"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "clusterstartrpflag"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "camhneedsbasedgroupingcode"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "clustid_deid"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "clusterdaysrp"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "enddatecareclust"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "endtimecareclust"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "fldcareclustcodefin"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "fmhcareclustcodefin"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "inacttimecc"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "ldcareclustcodefin"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "recordenddate"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "recordstartdate"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "startdatecareclust"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "starttimecareclust"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "uniqclustid_deid"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs803carecluster",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs804fiveforensicpathways",
+        "display_name": "ffpassdate"
+    },
+    {
+        "table": "mhs804fiveforensicpathways",
+        "display_name": "ffpassreason"
+    },
+    {
+        "table": "mhs804fiveforensicpathways",
+        "display_name": "ffpcode"
+    },
+    {
+        "table": "mhs804fiveforensicpathways",
+        "display_name": "person_id_deid"
+    },
+    {
+        "table": "mhs804fiveforensicpathways",
+        "display_name": "localpatientid_deid"
+    },
+    {
+        "table": "mhs804fiveforensicpathways",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs804fiveforensicpathways",
+        "display_name": "uniqmonthid"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "careprofjobrolecode"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "careprofstaffgpmh"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "mainspeccodemh"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "occcode"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "profregbodycode"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "profregentryid_deid"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "uniqcareproflocalid_deid"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "careproflocalid_deid"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "orgidprov"
+    },
+    {
+        "table": "mhs901staffdetails",
+        "display_name": "uniqmonthid"
+    }
+]
