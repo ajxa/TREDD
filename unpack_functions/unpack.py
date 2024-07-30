@@ -59,7 +59,7 @@ def unpack_unformatted_dd(unformatted_dd_file_name:str):
     with open("unpacked.json", "w+") as file:
         file.write(json.dumps(unpacked_dict, indent=4))
 
-def unpack_table_mapping(data_dictionary_file_name: str, sheet_name: str):
+def unpack_table_mapping(data_dictionary_file_name: str, mapping_columns:list, sheet_name: str):
     """
     Function to unpack the table and display_name_label columns
     from a data dictionary excel, outputted as a json string that can
@@ -78,10 +78,11 @@ def unpack_table_mapping(data_dictionary_file_name: str, sheet_name: str):
     """
     dictionary_df = pd.read_excel(f'.\excels_to_unpack\{data_dictionary_file_name}', sheet_name=sheet_name, header=2)
 
-    # filter above to columns: table, display_name / display_name_label
-    dictionary_df = dictionary_df[["table", "display_name"]]
-    # remove dars_nic number from table column
-    dictionary_df["table"] = dictionary_df["table"].replace(to_replace='_dars_nic_[0-9]{6}_\w{5}', regex=True, value="")
+    # filter above to columns given (eg table, display_name / display_name_label)
+    dictionary_df = dictionary_df[mapping_columns]
+    # if table column, remove dars_nic number from table column
+    if "table" in mapping_columns:
+        dictionary_df["table"] = dictionary_df["table"].replace(to_replace='_dars_nic_[0-9]{6}_\w{5}', regex=True, value="_{dars_nic}")
 
     unpacked_dict = dictionary_df.to_dict(orient="records")
 
@@ -90,6 +91,6 @@ def unpack_table_mapping(data_dictionary_file_name: str, sheet_name: str):
     return
 
 
-unpack_table_mapping(data_dictionary_file_name="dhsc_dd_2024_02_28.xlsx", sheet_name="msds-v2")
+unpack_table_mapping(data_dictionary_file_name="dhsc_dd_2024_02_28.xlsx", mapping_columns=["table", "display_name_label"], sheet_name="msds-v2")
 
-unpack_table_mapping(data_dictionary_file_name="dhsc_dd_2024_02_28.xlsx", sheet_name="mhsds")
+unpack_table_mapping(data_dictionary_file_name="dhsc_dd_2024_02_28.xlsx", mapping_columns=["table", "display_name_label"], sheet_name="mhsds")
