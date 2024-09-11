@@ -14,6 +14,9 @@ The general overview of the entire process is as follows:
 
 <br/>
 
+# Proof of Concept Data Dictionary
+The unpack_functions folder contains code used as part of the proof of concept project to move the data dictionaries into the Secure Data Environment (SDE).
+
 ### Adding drop-down hyperlinks
 
 Once the data dictionary has been generated, the following steps need to be completed to ensure the home tab drop-down hyperlinks work as intended:
