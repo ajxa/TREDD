@@ -35,10 +35,19 @@ customer_lookup = list(
     bhf = "391419_j3w9t",
     dhsc = "484452_h8s1l",
     datacan = "402417_n9z5w",
-    ncie = "610798_n0g8z",
+    nice = "610798_n0g8z",
     az = "445543_w0d4n",
     nhse = "411785_z6x7m",
-    evidera = "561357_x0f3n"
+    evidera = "561357_x0f3n",
+    neohealth = "692602_q6p4f",
+    oxford = "714765_g1p5s",
+    newcastle = "726177_r0h8v",
+    birmingham = "717428_m3s8h",
+    manchester = "739822_q8r67",
+    hull = "682532_b4b5l",
+    lcp = "683842_m6s8n",
+    ucl = "727610_s2v3n",
+    oxfordsaid = "712819_x8g2j"
 )
 
 
