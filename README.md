@@ -9,7 +9,7 @@ The general overview of the entire process is as follows:
 
 <br/>
 
-<img src="inst/Process_overview.svg" width="100%"/>
+<img src="inst/process_overview.svg" width="100%"/>
 
 
 <br/>

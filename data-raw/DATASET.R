@@ -32,6 +32,7 @@ split_tables_lookup = lapply(split_tables_lookup, \(x){
 
 # Customer list with agreement ids
 customer_lookup = list(
+<<<<<<< HEAD
 bhf = "391419_j3w9t",
 dhsc = "484452_h8s1l",
 datacan = "402417_n9z5w",
@@ -48,6 +49,15 @@ hull = "682532_b4b5l",
 lcp = "683842_m6s8n",
 ucl = "727610_s2v3n",
 oxfordsaid = "712819_x8g2j"
+=======
+    bhf = "391419_j3w9t",
+    dhsc = "484452_h8s1l",
+    datacan = "402417_n9z5w",
+    ncie = "610798_n0g8z",
+    nhse = "411785_z6x7m",
+    evidera = "561357_x0f3n",
+    ucl = "727610_s2v3n"
+>>>>>>> 2eaf386 (removed AZ and added UCL to customer list)
 )
 
 
