@@ -1,0 +1,3374 @@
+[
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Accommodation National Latest"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Accommodation Provider Latest"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Age At Death"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Age Of Patient At Reporting Period End"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Age Of Patient At Reporting Period Start"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "County"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Default Postcode"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Electoral Ward Of Usual Address"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Employment National Latest"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Employment Provider Latest"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Ethnic Category"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Ethnic Category 2021"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Ethnicity Higher"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Ethnicity Low"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Gender Identity Code"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Gender Identity Same At Birth Indicator"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Ic Rec Ccg"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Ic Rec Ccg Name"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Imd Quartile"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Language Code (Preferred)"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Local Authority District/Unitary Authority"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Lower Super Output Area (Residence) 2011"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Nhs Number Status Indicator Code (Mental Health And Maternity)"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Ccg Of Residence)"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Educational Establishment)"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Local Patient Identifier)"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Patient Most Recent Record In Reporting Period"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Person Marital Status"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Person Stated Gender Code"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Postcode District"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Region Ic Rec Ccg"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Stp Ic Rec Ccg"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Organisation Identifier Ingegrated Care Board of Residence"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "IC REC ICB"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "IC REC ICB NAME"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "IC REC SUB ICB LOCATION"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "IC REC SUB ICB LOCATION NAME"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "ORGANISATION IDENTIFIER (SUB ICB LOCATION OF RESIDENCE)"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "REGION IC REC SUB ICB LOCATION"
+    },
+    {
+        "table": "mhs001mpi_{dars_nic}",
+        "display_name_label": "REGION IC REC SUB ICB NAME"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "End Date (Gmp Patient Registration)"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "General Medical Practice Code (Patient Registration)"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Gp Distance From Home"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Local Authority District/Unitary Authority (Of Gp Practice)"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Ccg Of Gp Practice)"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Start Date (Gmp Patient Registration)"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "Organisation Identifier Ingegrated Care Board of GP Practice"
+    },
+    {
+        "table": "mhs002gp_{dars_nic}",
+        "display_name_label": "ORGANISATION IDENTIFIER (SUB ICB LOCATION OF GP PRACTICE)"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Accommodation Type"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Accommodation Type End Date"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Accommodation Type Recorded Date"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Accommodation Type Start Date"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Age At Accommodation Type Date"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Secure Childrens Home Placement Type"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Settled Accommodation Indicator"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs003accommstatus_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Employment Status"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Employment Status End Date"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Employment Status Recorded Date"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Employment Status Start Date"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Weekly Hours Worked"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs004empstatus_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Child Protection Plan Indication Code"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Constant Supervision And Care Required Due To Disability Indicator"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Educational Assessment Outcome"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Emergent Psychosis Date"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Ex-British Armed Forces Indicator"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "First Prescription Date (Anti-Psychotic Medication)"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Looked After Child Indicator"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Looked After Child Legal Status"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Manifest Psychosis Date"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Offence History Indication Code"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Parental Responsibilities Indicator"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Prodrome Psychosis Date"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Psychosis First Treatment Start Date"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Reasonable Adjustment Required Indicator"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Young Carer Indicator"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs005patind_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Care Professional Service Or Team Type Association (Mental Health)"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Care Coordinator Assignment Period)"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Inactive Timestamp"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Care Coordinator Assignment Period)"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs006mhcarecoord_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs007disabilitytype_{dars_nic}",
+        "display_name_label": "Disability Code"
+    },
+    {
+        "table": "mhs007disabilitytype_{dars_nic}",
+        "display_name_label": "Disability Impact Perception"
+    },
+    {
+        "table": "mhs007disabilitytype_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs007disabilitytype_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs007disabilitytype_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs007disabilitytype_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Care Plan Creation Date"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Care Plan Creation Time"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Care Plan Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Care Plan Implementation Date"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Care Plan Last Updated Date"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Care Plan Last Updated Time"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Care Plan Type (Mental Health)"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Unique Care Plan Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs008careplantype_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Care Plan Content Agreed By"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Care Plan Content Agreed Date"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Care Plan Content Agreed Time"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Care Plan Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Family Involved In Care Plan Indicator"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Family Not Involved In Care Plan Reason"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Unique Care Plan Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs009careplanagreement_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Assistive Technology Finding (Snomed Ct)"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Prescription Timestamp (Assistive Technology)"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs010asstechtosupportdistyp_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Social And Personal Circumstance (Snomed Ct)"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Social And Personal Circumstance Recorded Timestamp"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs011socpercircumstances_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat_{dars_nic}",
+        "display_name_label": "Overseas Visitor Charging Category"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat_{dars_nic}",
+        "display_name_label": "Overseas Visitor Charging Category Applicable End Date"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat_{dars_nic}",
+        "display_name_label": "Overseas Visitor Charging Category Applicable From Date"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs012overseasvisitorchargcat_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Age At Service Referral Discharge Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Age At Service Referral Received Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Clinical Response Priority Type"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Count Attended Care Contacts In Financial Year Person Was 0 17 At Time Of Contact"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Count Of Attended Care Contacts"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Count Of Attended Care Contacts In Financial Year"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Decision To Treat Date (Mental Health Home Treatment)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Decision To Treat Time (Mental Health Home Treatment)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Discharge Plan Creation Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Discharge Plan Creation Time"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Discharge Plan Last Updated Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Discharge Plan Last Updated Time"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "First Attended Contact In Financial Year Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "First Attended Contact In Rp Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "First Contact Ever Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "First Contact Ever Where Age At Contact Under 18 Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Inactive Timestamp (Referral)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code Of Commissioner)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Referring)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Primary Reason For Referral (Mental Health)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Reason For Out Of Area Referral (Adult Acute Mental Health)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Referral Request Received Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Referral Request Received Time"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Referral Service Areas Open End Rp Lda"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Referral Service Areas Starting In Rp Lda"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Referring Care Professional Staff Group (Mental Health)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Second Attended Contact Ever Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Second Attended Contact In Financial Year Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Second Contact Ever Where Age At Contact Under 18 Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Service Discharge Date"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Service Discharge Time"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Source Of Referral For Mental Health Services Data Set"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Specialised Mental Health Service Category Code"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs101referral_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Age At Service Referral Closure Date"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Age At Service Referral Rejection Date"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Care Professional Team Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Inactive Timestamp (Service Type)"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Referral Closure Date"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Referral Closure Reason"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Referral Closure Time"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Referral Rejection Date"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Referral Rejection Reason"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Referral Rejection Time"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Service Or Team Type Referred To (Mental Health)"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Service Team Type"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Unique Care Professional Team Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs102servicetypereferredto_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs103otherreasonreferral_{dars_nic}",
+        "display_name_label": "Other Reason For Referral (Mental Health)"
+    },
+    {
+        "table": "mhs103otherreasonreferral_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs103otherreasonreferral_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs103otherreasonreferral_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs103otherreasonreferral_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs103otherreasonreferral_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Age At Referral To Treatment End Date"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Age At Referral To Treatment Start Date"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Patient Pathway Identifier Issuer)"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Patient Pathway Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Referral To Treatment Period End Date"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Referral To Treatment Period Start Date"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Referral To Treatment Period Status"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Time Between Referral To Treatment Start And End Date"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Waiting Time Measurement Type (Mental Health)"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs104rtt_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Coded Referral Procedure And Procedure Status (Snomed Ct)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Decision To Refer Date (Onward Referral)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Decision To Refer Time (Onward Referral)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Onward Referral Date"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Onward Referral Reason (Mental Health Services Data Set)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Onward Referral Time"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Receiving)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Referred Out Of Area Reason (Adult Acute Mental Health)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs105onwardreferral_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Discharge Plan Content Agreed By"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Discharge Plan Content Agreed Date"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Discharge Plan Content Agreed Time"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs106dischargeplanagreement_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Activity Location Type Code"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Administrative Category Code"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Age At Care Contact Date"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Attended Or Did Not Attend Code"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Contact Cancellation Date"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Contact Cancellation Reason"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Contact Date"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Contact Patient Therapy Mode"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Contact Subject"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Contact Time"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Care Professional Team Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Clinical Contact Duration Of Care Contact"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Community Perinatal Mental Health Partner Assessment Offer Indicator"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Consultation Mechanism (Mental Health)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Consultation Type"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Contact Location Distance From Home"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Earliest Clinically Appropriate Date"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Earliest Reasonable Offer Date"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code Of Commissioner)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Place Of Safety Indicator"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Planned Care Contact Indicator"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Reasonable Adjustment Made Indicator"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Specialised Mental Health Service Category Code"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Time Between Referral And Care Contact"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Unique Care Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Unique Care Professional Team Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs201carecontact_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Care Activity Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Care Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Clinical Contact Duration Of Care Activity"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Coded Finding (Coded Clinical Entry)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Coded Observation (Snomed Ct)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Coded Procedure And Procedure Status (Snomed Ct)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Finding Scheme In Use (Mental Health)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Master Icd-10 Finding Code"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Master Icd-10 Finding Description"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Finding Code"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Finding Preferred Term"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Observation Code"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Observation Preferred Term"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Observation Value"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Ucum Unit Of Measurement"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Unique Care Activity Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Unique Care Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs202careactivity_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Care Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Other Person In Attendance At Care Contact"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Reason Patient Does Not Have Independent Mental Capacity Advocate"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Reason Patient Does Not Have Independent Mental Health Advocate"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Unique Care Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs203otherattend_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Age At Indirect Activity"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Care Professional Team Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Coded Finding (Coded Clinical Entry)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Coded Indirect Activity Procedure And Procedure Status (Snomed Ct)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Duration Of Indirect Activity"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Finding Scheme In Use (Mental Health)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Indirect Activity Date"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Indirect Activity Time"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Master Icd-10 Finding Code"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Master Icd-10 Finding Description"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Finding Code"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Finding Preferred Term"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code Of Commissioner)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs204indirectactivity_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Activity Location Type Code"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Clinical Contact Duration Of Group Session"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Group Session Date"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Group Session Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Group Session Type (Mental Health)"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Number Of Group Session Participants"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code Of Commissioner)"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Service Or Team Type Referred To (Mental Health)"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs301groupsession_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Age Of Patient At Reporting Period End"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Age Of Patient At Reporting Period Start"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Care Contact Date (Mental Health Drop In Contact)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Consultation Mechanism (Mental Health)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "End Time (Mental Health Drop In Contact)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Ethnic Category"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Ethnic Category 2021"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Gender Identity Code"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Gender Identity Same At Birth Indicator"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Mental Health Drop In Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Mental Health Drop In Contact Outcome"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Mental Health Drop In Contact Service Type"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Receiving)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Start Time (Mental Health Drop In Contact)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Unique Mental Health Drop In Contact Identifier  (Hashed Value)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs302mhdropincontact_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Act Legal Status Classification Assignment Period)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "End Time (Mental Health Act Legal Status Classification Assignment Period)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Expiry Date (Mental Health Act Legal Status Classification)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Expiry Time (Mental Health Act Legal Status Classification)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Inactive Timestamp (Mha Period)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Mental Health Act 2007 Mental Category"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Assignment Period End Reason"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Assignment Period Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Assignment Period Start Reason"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Code"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Act Legal Status Classification Assignment Period)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Start Time (Mental Health Act Legal Status Classification Assignment Period)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Unique Mental Health Act Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs401mhactperiod_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Responsible Clinician Assignment Period)"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Assignment Period Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Responsible Clinician Assignment Period)"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Unique Mental Health Act Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs402respclinicianassignperiod_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Conditional Discharge)"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Mental Health Absolute Discharge Responsibility"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Assignment Period Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Mental Health Conditional Discharge End Reason"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Conditional Discharge)"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Unique Mental Health Act Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs403conditionaldischarge_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Community Treatment Order End Reason"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "End Date (Community Treatment Order)"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Expiry Date (Community Treatment Order)"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Assignment Period Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Start Date (Community Treatment Order)"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Unique Mental Health Act Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs404commtreatorder_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "End Date (Community Treatment Order Recall)"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "End Time (Community Treatment Order Recall)"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Mental Health Act Legal Status Classification Assignment Period Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Start Date (Community Treatment Order Recall)"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Start Time (Community Treatment Order Recall)"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Unique Mental Health Act Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs405commtreatorderrecall_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Admission Source (Mental Health Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Decided To Admit Date"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Decided To Admit Time"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Destination Of Discharge (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Discharge Date (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Discharge Time (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Estimated Discharge Date (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Inactive Timestamp (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Length Of Stay (Discharged Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Length Of Stay (Hospital Provider Spell End Of Reporting Period)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Method Of Admission (Mental Health Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Method Of Discharge (Mental Health Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Planned Destination Of Discharge (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Planned Discharge Date (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Postcode District (Main Visitor)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Postcode District Of Discharge Destination (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Start Date (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Start Time (Hospital Provider Spell)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Time To Estimated Discharge Date"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Time To Planned Discharge Date"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Transforming Care Category"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Transforming Care Indicator"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs501hospprovspell_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Bed Days (Ward Stay End In Reporting Period)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Bed Type (Adult Discharge)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Trial Leave)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "End Date (Ward Stay)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "End Time (Ward Stay)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Hospital Bed Type (Mental Health)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Hospital Bed Type Name"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Inactive Timestamp (Ward Stay)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Intended Age Group (Mental Health)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Intended Clinical Care Intensity Code (Mental Health)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Locked Ward Indicator"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Sex Of Patients Code (Mental Health)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Specialised Mental Health Service Category Code"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Specialised Mh Service Name"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Start Date (Ward Stay)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Start Time (Ward Stay)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Code"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Location Distance From Home"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Security Level"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Setting Type (Mental Health)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Stay Bed Types Lkup"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Stay Service Areas Open End Rp Lda"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Ward Stay Service Areas Starting In Rp Lda"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs502wardstay_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "End Date (Care Professional Admitted Care Episode)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Start Date (Care Professional Admitted Care Episode)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Treatment Function Code (Mental Health)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs503assignedcareprof_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Bed Days (Delayed Discharge End Of Reporting Period)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Delayed Discharge Period)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Mental Health Delayed Discharge Attributable To Indication Code"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Mental Health Delayed Discharge Reason"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Responsible Local Authority Mental Health Delayed Discharge)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Delayed Discharge Period)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs504delayeddischarge_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "End Date (Restrictive Intervention Incident)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "End Time (Restrictive Intervention Incident)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Incident Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Post-Incident Review Held Indicator (Care Personnel)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Post-Incident Review Held Indicator (Patient)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Post-Incident Review Not Held Reason (Patient)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Reason"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Start Date (Restrictive Intervention Incident)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Start Time (Restrictive Intervention Incident)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs505restrictiveinterventinc_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Date Of Assault On Patient"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs506assault_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Date Of Self-Harm"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs507selfharm_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "End Date (Home Leave)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "End Time (Home Leave)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Home Leave Days (In Reporting Period)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Start Date (Home Leave)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Start Time (Home Leave)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs509homeleave_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Leave Of Absence)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "End Time (Mental Health Leave Of Absence)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Escorted Mental Health Leave Of Absence Indicator"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Leave Of Absence Days (In Reporting Period)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Mental Health Leave Of Absence End Reason"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Leave Of Absence)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Start Time (Mental Health Leave Of Absence)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs510leaveofabsence_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Absence Without Leave Days (In Reporting Period)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Absence Without Leave)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "End Time (Mental Health Absence Without Leave)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Mental Health Absence Without Leave End Reason"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Absence Without Leave)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Start Time (Mental Health Absence Without Leave)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs511absencewithoutleave_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "End Date (Commissioner Assignment Period)"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code Of Commissioner)"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Start Date (Commissioner Assignment Period)"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs512hospspellcommassper_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Observation Date (Substance Misuse Evidence)"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs513substancemisuse_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "End Date (Mental Health Trial Leave)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "End Time (Mental Health Trial Leave)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Start Date (Mental Health Trial Leave)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Start Time (Mental Health Trial Leave)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs514trialleave_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "End Date (Restrictive Intervention Type)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "End Time (Restrictive Intervention Type)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Incident Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Restraint Injury Indicator (Care Personnel)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Restraint Injury Indicator (Other Person)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Restraint Injury Indicator (Patient)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Type"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Restrictive Intervention Type Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Start Date (Restrictive Intervention Type)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Start Time (Restrictive Intervention Type)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs515restrictiveinterventtype_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Police Assistance Arrival Date"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Police Assistance Arrival Time"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Police Assistance Request Date"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Police Assistance Request Time"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Police Restraint Or Force Used Indicator"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Unique Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Ward Stay Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs516policeassistancerequest_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "End Date (Specialised Mental Health Exceptional Package Of Care)"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code Of Commissioner)"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Specialised Mental Health Exceptional Package Of Care Charge"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Start Date (Specialised Mental Health Exceptional Package Of Care)"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Unique Hospital Provider Spell Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs517smhexceptionalpackofcare_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Coded Diagnosis Timestamp"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Diagnosis Scheme In Use (Mental Health)"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Previous Diagnosis Code"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Previous Diagnosis Description"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Previous Diagnosis Code"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Previous Diagnosis Preferred Term"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs601medhistprevdiag_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Coded Provisional Diagnosis Timestamp"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Diagnosis Scheme In Use (Mental Health)"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Provisional Diagnosis Code"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Provisional Diagnosis Description"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Provisional Diagnosis Code"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Provisional Diagnosis Preferred Term"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs603provdiag_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Coded Diagnosis Timestamp"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Diagnosis Scheme In Use (Mental Health)"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Primary Diagnosis Code"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Primary Diagnosis Description"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Primary Diagnosis Code"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Primary Diagnosis Preferred Term"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs604primdiag_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Coded Diagnosis Timestamp"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Diagnosis Scheme In Use (Mental Health)"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Secondary Diagnosis Code"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Master Icd-10 Secondary Diagnosis Description"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Secondary Diagnosis Code"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Master Snomed Ct Secondary Diagnosis Preferred Term"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs605secdiag_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Age At Assessment Tool (Referral) Completion Date"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Assessment Tool Completion Timestamp"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Person Score"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs606codedscoreassessmentrefer_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Age At Assessment Tool (Contact) Completion Date"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Care Activity Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Person Score"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Unique Care Activity Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Unique Care Contact Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Unique Service Request Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs607codedscoreassessmentact_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs608anonselfassess_{dars_nic}",
+        "display_name_label": "Activity Location Type Code"
+    },
+    {
+        "table": "mhs608anonselfassess_{dars_nic}",
+        "display_name_label": "Assessment Tool Completion Timestamp"
+    },
+    {
+        "table": "mhs608anonselfassess_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code Of Commissioner)"
+    },
+    {
+        "table": "mhs608anonselfassess_{dars_nic}",
+        "display_name_label": "Person Score"
+    },
+    {
+        "table": "mhs608anonselfassess_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs608anonselfassess_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Care Programme Approach Care Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "End Date (Care Programme Approach Care)"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Start Date (Care Programme Approach Care)"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Unique Cpa Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs701cpacareepisode_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Care Programme Approach Care Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Care Programme Approach Review Date"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Unique Cpa Episode Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs702cpareview_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Adult Mental Health Care Cluster Code (Initial)"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Assessment Tool Completion Date"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Assessment Tool Completion Time"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Clustering Tool Assessment Category"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Clustering Tool Assessment Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Clustering Tool Assessment Reason"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Forensic Learning Disabilities Care Cluster Code (Initial)"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Learning Disabilities Care Cluster Code (Initial)"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Mental Health Care Cluster Super Class Code"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Unique Clustering Tool Assessment Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs801clustertool_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Clustering Tool Assessment Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Person Score"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Unique Clustering Tool Assessment Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs802clusterassess_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Adult Mental Health Care Cluster Code (Final)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Care Cluster Ended In Rp Flag"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Care Cluster Open At End Of Rp Flag"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Care Cluster Started In Rp Flag"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Child And Adolescent Mental Health Needs Based Grouping Code"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Clustering Tool Assessment Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Days On Care Cluster In Rp"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "End Date (Care Cluster Assignment Period)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "End Time (Care Cluster Assignment Period)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Forensic Learning Disabilities Care Cluster Code (Final)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Forensic Mental Health Care Cluster Code (Final)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Inactive Timestamp"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Learning Disabilities Care Cluster Code (Final)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Record End Date"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Record Start Date"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Start Date (Care Cluster Assignment Period)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Start Time (Care Cluster Assignment Period)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Unique Clustering Tool Assessment Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs803carecluster_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs804fiveforensicpathways_{dars_nic}",
+        "display_name_label": "Five Forensic Pathways Assessment Date"
+    },
+    {
+        "table": "mhs804fiveforensicpathways_{dars_nic}",
+        "display_name_label": "Five Forensic Pathways Assessment Reason"
+    },
+    {
+        "table": "mhs804fiveforensicpathways_{dars_nic}",
+        "display_name_label": "Five Forensic Pathways Code"
+    },
+    {
+        "table": "mhs804fiveforensicpathways_{dars_nic}",
+        "display_name_label": "Person ID De-Identified"
+    },
+    {
+        "table": "mhs804fiveforensicpathways_{dars_nic}",
+        "display_name_label": "Local Patient Identifier De-Identified"
+    },
+    {
+        "table": "mhs804fiveforensicpathways_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs804fiveforensicpathways_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Care Professional (Job Role Code)"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Care Professional Staff Group (Mental Health)"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Main Specialty Code (Mental Health)"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Occupation Code"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Professional Registration Body Code"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Professional Registration Entry Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Unique Care Professional Local Identifier (Hashed Value)"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Organisation Identifier (Code of Provider)"
+    },
+    {
+        "table": "mhs901staffdetails_{dars_nic}",
+        "display_name_label": "Unique Month ID"
+    }
+]
