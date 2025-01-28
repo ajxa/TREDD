@@ -47,7 +47,12 @@ customer_lookup = list(
     hull = "682532_b4b5l",
     lcp = "683842_m6s8n",
     ucl = "727610_s2v3n",
-    oxfordsaid = "712819_x8g2j"
+    oxfordsaid = "712819_x8g2j",
+    eviderasanofi = "717485_f8l6h",
+    lancaster = "690385_r5d4b",
+    methods = "744993_z8k2k",
+    queenmary = "749612_d9m1v",
+    harveywalsh = "596002_v3n9j"    
 )
 
 
