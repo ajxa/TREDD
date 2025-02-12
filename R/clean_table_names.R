@@ -25,7 +25,7 @@ clean_table_names <- function(table_names, remove_fyear = FALSE){
 
         new_names <- stringr::str_replace_all(table_names, "_all_years$", "_{fyear}")
 
-        fyear_tbls <- stringr::str_which(new_names, "^lowlat_|^csds_|^iapt_")
+        fyear_tbls <- stringr::str_which(new_names, "^lowlat_|^csds_|^iapt_v2")
 
         new_names[fyear_tbls] <- paste0(new_names[fyear_tbls],"_{fyear}")
 
