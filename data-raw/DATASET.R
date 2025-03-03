@@ -20,7 +20,7 @@ split_tables_lookup = list(
     rtds = c("^rtds","^rtds"),
     rdc = c("^rdc", "^rdc"),
     mental_health = c("(?i)^mhs","(?i)^mhs"),
-    maternity = c("(?i)^msds", "(?i)^msds-?v2")
+    maternity_v2 = c("(?i)^msds_v2", "(?i)^msds_?v2")
 )
 
 split_tables_lookup = lapply(split_tables_lookup, \(x){
@@ -52,7 +52,7 @@ customer_lookup = list(
     lancaster = "690385_r5d4b",
     methods = "744993_z8k2k",
     queenmary = "749612_d9m1v",
-    harveywalsh = "596002_v3n9j"    
+    harveywalsh = "596002_v3n9j"
 )
 
 

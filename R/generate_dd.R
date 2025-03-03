@@ -48,7 +48,6 @@ generate_dd = function(
                             col = "slateblue",line_col = "white"),
                   "\n")
 
-
     dictionary = TREDD::read_excel_sheets(
         workbook_path = unformatted_dict_path,
         filter_sheets = c("Home","Refinements", "Dictonary_Priorities")

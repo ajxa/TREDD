@@ -45,6 +45,9 @@ clean_table_names <- function(table_names, remove_fyear = FALSE){
 
     }
 
+    # replace any periods for underscores
+    new_names <- stringr::str_replace_all(new_names, "\\.", "_")
+
     return(new_names)
 
 }

@@ -7,7 +7,8 @@
 select_customer(
   customer_name,
   customer_fields,
-  customer_list = customer_lookup
+  customer_list = customer_lookup,
+  exclude_tables = c("token_pseudo_id_lookup")
 )
 }
 \arguments{
@@ -18,7 +19,9 @@ all the fields present in the selected customers agreement}
 
 \item{customer_list}{Lookup list of current customers and their specific agreement ids.
 This list is apart of the package and can be accessed by the user, but
-can also easily be modied by the user to include new customers.}
+can also easily be modified by the user to include new customers.}
+
+\item{exclude_tables}{tables in the customer's agreement to exclude from the dictionary output.}
 }
 \value{
 list of length 3 comprising:

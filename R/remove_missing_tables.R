@@ -58,6 +58,7 @@ remove_missing_tables <- function(dictionary, fields){
         found = names(fields)[names(fields) %in% names(dictionary)]
         not_found = which(!names(fields) %in% names(dictionary))
 
+
     }
 
     fields = fields[found]

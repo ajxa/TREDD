@@ -8,14 +8,19 @@
 #'                        all the fields present in the selected customers agreement
 #' @param customer_list Lookup list of current customers and their specific agreement ids.
 #'                      This list is apart of the package and can be accessed by the user, but
-#'                      can also easily be modied by the user to include new customers.
+#'                      can also easily be modified by the user to include new customers.
+#' @param exclude_tables tables in the customer's agreement to exclude from the dictionary output.
 #' @return list of length 3 comprising:
 #'
 #'         customer_name = customer's name
 #'         agreement_id = customer's agreement id
 #'         fields = all fields present in the customer's agreement
 #' @export
-select_customer <- function(customer_name, customer_fields, customer_list=customer_lookup){
+select_customer <- function(customer_name,
+                            customer_fields,
+                            customer_list=customer_lookup,
+                            exclude_tables = c("token_pseudo_id_lookup")
+                            ){
 
     if(length(customer_name) > 1) stop("customer_name must be a single string")
     if(missing(customer_name)) stop("customer_name is missing!")
@@ -33,6 +38,8 @@ select_customer <- function(customer_name, customer_fields, customer_list=custom
     environment_fields = readr::read_csv(customer_fields, col_types = readr::cols())
 
     environment_fields = clean_environment_fields(environment_fields)
+
+    environment_fields = environment_fields[!names(environment_fields) %in% exclude_tables]
 
     # Standardise long excel field names if they are present
     cwt_present = grep("(?i)^cwt_?", names(environment_fields))
