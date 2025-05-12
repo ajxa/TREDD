@@ -19,7 +19,7 @@ split_tables_lookup = list(
     sact = c("^sact","^sact"),
     rtds = c("^rtds","^rtds"),
     rdc = c("^rdc", "^rdc"),
-    mental_health = c("(?i)^mhs","(?i)^mhs"),
+    mental_health = c("(?i)^mhsds_v6","(?i)^mhsds_v6"),
     maternity_v2 = c("(?i)^msds_v2", "(?i)^msds_?v2")
 )
 
