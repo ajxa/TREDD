@@ -38,7 +38,7 @@ Once the data dictionary has been generated, the following steps need to be comp
 3.  Select `Formulas > Name Manager > and "select_sheet"` and enter the following into the `'Refers To'` box and then close the dialogue box (save the changes when prompted):
 
     ```
-    =INDIRECT(ADDRESS(3,1,,,INDIREC("select_dataset")))
+    =INDIRECT(ADDRESS(3,1,,,INDIRECT("select_dataset")))
     ```
 
     <img src="inst/add_hyperlinks_3.gif" width="100%"/>
