@@ -52,7 +52,9 @@ customer_lookup = list(
     lancaster = "690385_r5d4b",
     methods = "744993_z8k2k",
     queenmary = "749612_d9m1v",
-    harveywalsh = "596002_v3n9j"
+    harveywalsh = "596002_v3n9j",
+    neqos = "10328_s0h5j",
+    imperialesc = "754175_w2z4t"
 )
 
 
