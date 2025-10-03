@@ -56,7 +56,8 @@ customer_lookup = list(
     neqos = "10328_s0h5j",
     imperialesc = "754175_w2z4t",
     imperialpelvic = "776195_h7w4d",
-    londontropical = "779433_q9r8n"
+    londontropical = "779433_q9r8n",
+    ucl_cl_psrc = "756900_q2j3k"
 )
 
 
