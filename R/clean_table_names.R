@@ -34,8 +34,9 @@ clean_table_names <- function(table_names, remove_fyear = FALSE){
 
         new_names[new_names == "ndrs_cancer_pathway"] <- "ndrs_cancer_at_pathway_dars_enhanced"
         new_names[new_names == "ndrs_cancer_tumour"] <- "ndrs_cancer_at_tumour_dars_enhanced"
-        new_names[new_names ==  "ndrs_cancer_rapid_registration"] <- "ndrs_cancer_at_rapid_registrations_dars_enhanced"
-
+        new_names[new_names == "ndrs_cancer_rapid_pathway"] <- "ndrs_cancer_at_rapid_pathway_dars_enhanced"
+        new_names[new_names == "ndrs_cancer_rapid_registration"] <- "ndrs_cancer_at_rapid_registrations_dars_enhanced"
+        new_names[new_names == "ndrs_cancer_sact"] <- "ndrs_cancer_at_sact_dars_enhanced"
 
         cancer_wait_times_tbl = grep("^cwt_", new_names)
 
