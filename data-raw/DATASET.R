@@ -60,7 +60,9 @@ customer_lookup = list(
     ucl_cl_psrc = "756900_q2j3k",
     synapsysiq = "782158_w5v8c",
     cambridge = "771170_y3j8z",
-    certara = "698157_b0l5b"
+    certara = "698157_b0l5b",
+    ucl_patient_choice = "804103_q6p5s",
+    sheffield = "800435_g0v2j"
 )
 
 
